@@ -1,7 +1,0 @@
-[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/visualization.cpp:[m[K In function ‘[01m[Kvoid pubImageFeatureClassification(const Estimator&, const Header&)[m[K’:
-[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/visualization.cpp:423:31:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[Kcv_bridge::CvImage*[m[K’ to non-scalar type ‘[01m[Kcv_bridge::CvImagePtr {aka boost::shared_ptr<cv_bridge::CvImage>}[m[K’ requested
-   cv_bridge::CvImagePtr img = [01;31m[Knew cv_bridge::CvImage[m[K;
-                               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
-make[2]: *** [CMakeFiles/libutility.dir/src/utility/visualization.cpp.o] Error 1
-make[1]: *** [CMakeFiles/libutility.dir/all] Error 2
-make: *** [all] Error 2

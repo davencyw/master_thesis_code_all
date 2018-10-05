@@ -1,1 +1,0 @@
-/home/davencyw/catkinws/dynokvis/devel/.private/okvis_ros/lib/python2.7/dist-packages/okvis_ros/__init__.py

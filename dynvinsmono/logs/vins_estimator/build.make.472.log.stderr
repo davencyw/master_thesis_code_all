@@ -1,8 +1,0 @@
-[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:[m[K In member function ‘[01m[Kvirtual void SimpleCluster::computecluster(FeatureManager&, std::vector<std::pair<FeaturePerId*, double> >&, int, std::deque<Cluster>&)[m[K’:
-[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:157:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kfeatures_in_cluster[m[K’ was not declared in this scope
-           features_in_cluster.push_back(std::make_pair(&it_per_id, 0));
-[01;32m[K           ^[m[K
-make[2]: *** [CMakeFiles/libdynenv.dir/src/dynenv/cluster.cc.o] Error 1
-make[1]: *** [CMakeFiles/libdynenv.dir/all] Error 2
-make[1]: *** Waiting for unfinished jobs....
-make: *** [all] Error 2

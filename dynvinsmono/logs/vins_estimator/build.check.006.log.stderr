@@ -1,8 +1,0 @@
-[33m[1mCMake Warning[0m at /home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/CMakeLists.txt:20 (message):
-  OpenCV_VERSION: 3.3.1
-
-
-You have called ADD_LIBRARY for library libfactor without any source files. This typically indicates a problem with your CMakeLists.txt file
-CMake Error: CMake can not determine linker language for target: libfactor
-CMake Error: Cannot determine link language for target "libfactor".
-make: *** [cmake_check_build_system] Error 1

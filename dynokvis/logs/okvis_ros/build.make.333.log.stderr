@@ -1,8 +1,0 @@
-[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/src/cluster.cpp:[m[K In member function ‘[01m[Kvirtual std::vector<okvis::ceres::dynenv::Cluster> okvis::ceres::dynenv::SimpleCluster::computecluster(std::vector<std::pair<okvis::MapPoint*, double> >&, std::vector<std::tuple<Eigen::Matrix<double, 2, 1, 0, 2, 1>, double, Eigen::Matrix<double, 2, 1, 0, 2, 1> > >)[m[K’:
-[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/src/cluster.cpp:212:50:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [-Wsign-compare]
-         for(unsigned candidate_i(0); candidate_i < num_in_cluster; ++candidate_i){
-[01;32m[K                                                  ^[m[K
-[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/src/cluster.cpp:227:52:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [-Wsign-compare]
-           for(unsigned candidate_i(0); candidate_i < num_in_cluster; ++candidate_i){
-[01;32m[K                                                    ^[m[K
-/usr/bin/ld: warning: libboost_system.so.1.58.0, needed by /usr/local/lib/libvisensor.so, may conflict with libboost_system.so.1.67.0

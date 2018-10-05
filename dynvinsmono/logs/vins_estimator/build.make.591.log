@@ -1,9 +1,0 @@
-[ 21%] Built target libfactor
-[ 39%] Built target libutility
-[35m[1mScanning dependencies of target libdynenv[0m
-[ 60%] Built target libinitial
-[ 65%] [32mBuilding CXX object CMakeFiles/libdynenv.dir/src/dynenv/cluster.cc.o[0m
-[ 69%] [32m[1mLinking CXX shared library /home/davencyw/catkinws/dynvinsmono/devel/.private/vins_estimator/lib/liblibdynenv.so[0m
-[ 78%] Built target libdynenv
-[ 82%] [32m[1mLinking CXX executable /home/davencyw/catkinws/dynvinsmono/devel/.private/vins_estimator/lib/vins_estimator/vins_estimator[0m
-[100%] Built target vins_estimator

@@ -1,2 +1,0 @@
-/usr/bin/ar qc /home/davencyw/catkinws/dynokvis/devel/.private/okvis_ros/lib/libokvis_kinematics.a  CMakeFiles/okvis_kinematics.dir/src/dependency-tracker.cc.o
-/usr/bin/ranlib /home/davencyw/catkinws/dynokvis/devel/.private/okvis_ros/lib/libokvis_kinematics.a

@@ -1,2 +1,0 @@
-/usr/bin/ar qc /home/davencyw/catkinws/dynokvis/devel/.private/okvis_ros/lib/libokvis_multisensor_processing.a  CMakeFiles/okvis_multisensor_processing.dir/src/ThreadedKFVio.cpp.o CMakeFiles/okvis_multisensor_processing.dir/src/ImuFrameSynchronizer.cpp.o CMakeFiles/okvis_multisensor_processing.dir/src/FrameSynchronizer.cpp.o CMakeFiles/okvis_multisensor_processing.dir/src/VioVisualizer.cpp.o
-/usr/bin/ranlib /home/davencyw/catkinws/dynokvis/devel/.private/okvis_ros/lib/libokvis_multisensor_processing.a

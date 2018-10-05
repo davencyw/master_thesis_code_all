@@ -1,3 +1,0 @@
-repository='external project URL'
-module='https://www.doc.ic.ac.uk/~sleutene/software/brisk-2.0.3.zip'
-tag=''

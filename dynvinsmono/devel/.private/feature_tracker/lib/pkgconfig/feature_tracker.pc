@@ -1,8 +1,0 @@
-prefix=/home/davencyw/catkinws/dynvinsmono/devel/.private/feature_tracker
-
-Name: feature_tracker
-Description: Description of feature_tracker
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/davencyw/catkinws/dynvinsmono/devel/.private/feature_tracker/lib 
-Requires: 

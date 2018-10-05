@@ -1,7 +1,0 @@
-[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:239:65:[m[K [01;31m[Kerror: [m[Knon-member function ‘[01m[Kdouble DbscanClusterdistfunction(const FeaturePerId*, const FeaturePerId*)[m[K’ cannot have cv-qualifier
-                                  const FeaturePerId *feature_b) const;
-[01;32m[K                                                                 ^[m[K
-make[2]: *** [CMakeFiles/libdynenv.dir/src/dynenv/cluster.cc.o] Error 1
-make[1]: *** [CMakeFiles/libdynenv.dir/all] Error 2
-make[1]: *** Waiting for unfinished jobs....
-make: *** [all] Error 2

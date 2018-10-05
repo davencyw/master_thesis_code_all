@@ -1,1 +1,0 @@
-/home/davencyw/catkinws/dynokvis/devel/.private/okvis_ros/share/okvis_ros/cmake/okvis_rosConfig.cmake

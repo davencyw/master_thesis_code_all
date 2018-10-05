@@ -1,8 +1,0 @@
-[ 17%] Built target libutility
-[ 39%] Built target libfactor
-[ 56%] Built target libdynenv
-[ 78%] Built target libinitial
-[35m[1mScanning dependencies of target vins_estimator[0m
-[ 82%] [32mBuilding CXX object CMakeFiles/vins_estimator.dir/src/estimator.cpp.o[0m
-[ 86%] [32m[1mLinking CXX executable /home/davencyw/catkinws/dynvinsmono/devel/.private/vins_estimator/lib/vins_estimator/vins_estimator[0m
-[100%] Built target vins_estimator

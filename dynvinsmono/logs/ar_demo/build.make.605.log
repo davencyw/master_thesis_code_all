@@ -1,4 +1,0 @@
-[35m[1mScanning dependencies of target ar_demo_node[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/ar_demo_node.dir/src/ar_demo_node.cpp.o[0m
-[100%] [32m[1mLinking CXX executable /home/davencyw/catkinws/dynvinsmono/devel/.private/ar_demo/lib/ar_demo/ar_demo_node[0m
-[100%] Built target ar_demo_node

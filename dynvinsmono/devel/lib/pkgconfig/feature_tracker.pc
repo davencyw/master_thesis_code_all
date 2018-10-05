@@ -1,1 +1,0 @@
-/home/davencyw/catkinws/dynvinsmono/devel/.private/feature_tracker/lib/pkgconfig/feature_tracker.pc

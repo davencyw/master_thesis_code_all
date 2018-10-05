@@ -1,8 +1,0 @@
-prefix=/home/davencyw/catkinws/dynokvis/install
-
-Name: okvis_ros
-Description: Description of okvis_ros
-Version: 1.1.3
-Cflags: -I/home/davencyw/catkinws/dynokvis/install/include
-Libs: -L/home/davencyw/catkinws/dynokvis/install/lib -lokvis_ros
-Requires: 

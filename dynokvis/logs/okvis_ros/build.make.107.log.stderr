@@ -1,8 +1,0 @@
-[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_multisensor_processing/src/VioVisualizer.cpp:[m[K In member function ‘[01m[Kcv::Mat okvis::VioVisualizer::drawMatches(okvis::VioVisualizer::VisualizationData::Ptr&, std::size_t)[m[K’:
-[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_multisensor_processing/src/VioVisualizer.cpp:79:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct okvis::VioVisualizer::VisualizationData[m[K’ has no member named ‘[01m[Kestimator_[m[K’
-   const auto landmarksmap(data->estimator_->getLandmarksMap());
-[01;32m[K                                 ^[m[K
-make[2]: *** [okvis/okvis_multisensor_processing/CMakeFiles/okvis_multisensor_processing.dir/src/VioVisualizer.cpp.o] Error 1
-make[2]: *** Waiting for unfinished jobs....
-make[1]: *** [okvis/okvis_multisensor_processing/CMakeFiles/okvis_multisensor_processing.dir/all] Error 2
-make: *** [all] Error 2

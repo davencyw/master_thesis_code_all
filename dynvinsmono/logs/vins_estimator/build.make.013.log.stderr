@@ -1,8 +1,0 @@
-[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/estimator.cpp:[m[K In member function ‘[01m[Kvoid Estimator::solveOdometry()[m[K’:
-[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/estimator.cpp:435:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass ClassifyPoint[m[K’ has no member named ‘[01m[KupdateWeights[m[K’
-       classifier->[01;31m[KupdateWeights[m[K();
-                   [01;31m[K^~~~~~~~~~~~~[m[K
-make[2]: *** [CMakeFiles/vins_estimator.dir/src/estimator.cpp.o] Error 1
-make[2]: *** Waiting for unfinished jobs....
-make[1]: *** [CMakeFiles/vins_estimator.dir/all] Error 2
-make: *** [all] Error 2

@@ -1,8 +1,0 @@
-prefix=/home/davencyw/catkinws/dynvinsmono/devel/.private/ar_demo
-
-Name: ar_demo
-Description: Description of ar_demo
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/davencyw/catkinws/dynvinsmono/devel/.private/ar_demo/lib 
-Requires: 

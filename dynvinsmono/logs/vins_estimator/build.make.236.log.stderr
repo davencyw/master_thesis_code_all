@@ -1,8 +1,0 @@
-[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/factor/projection_factor.cpp:[m[K In member function ‘[01m[Kvirtual bool ProjectionFactor::Evaluate(const double* const*, double*, double**) const[m[K’:
-[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/factor/projection_factor.cpp:58:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Eigen::Map<Eigen::Matrix<double, 2, 1> >[m[K’ has no member named ‘[01m[KNorm[m[K’; did you mean ‘[01m[Knorm[m[K’?
-   *comp_residual = residual.[01;31m[KNorm[m[K();
-                             [01;31m[K^~~~[m[K
-                             [32m[Knorm[m[K
-make[2]: *** [CMakeFiles/libfactor.dir/src/factor/projection_factor.cpp.o] Error 1
-make[1]: *** [CMakeFiles/libfactor.dir/all] Error 2
-make: *** [all] Error 2

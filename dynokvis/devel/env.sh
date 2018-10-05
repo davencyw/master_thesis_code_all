@@ -1,1 +1,0 @@
-/home/davencyw/catkinws/dynokvis/devel/.private/catkin_tools_prebuild/env.sh

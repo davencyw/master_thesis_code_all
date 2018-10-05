@@ -1,9 +1,0 @@
-In file included from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/Estimator.hpp:585:0[m[K,
-                 from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/src/Estimator.cpp:42[m[K:
-[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/implementation/Estimator.hpp:[m[K In member function ‘[01m[Kceres::internal::ResidualBlock* okvis::Estimator::addObservation(uint64_t, uint64_t, std::size_t, std::size_t)[m[K’:
-[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/implementation/Estimator.hpp:62:57:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kresidual[m[K’ in ‘[01m[K((okvis::Estimator*)this)->okvis::Estimator::landmarksMap_.std::map<long unsigned int, okvis::MapPoint, std::less<long unsigned int>, Eigen::aligned_allocator<okvis::MapPoint> >::at(landmarkId).observations.std::map<okvis::KeypointIdentifier, long unsigned int>::at(kid)[m[K’, which is of non-class type ‘[01m[Kstd::map<okvis::KeypointIdentifier, long unsigned int>::mapped_type {aka long unsigned int}[m[K’
-     &(landmarksMap_.at(landmarkId).observations.at(kid).residual));
-[01;32m[K                                                         ^[m[K
-make[2]: *** [okvis/okvis_ceres/CMakeFiles/okvis_ceres.dir/src/Estimator.cpp.o] Error 1
-make[1]: *** [okvis/okvis_ceres/CMakeFiles/okvis_ceres.dir/all] Error 2
-make: *** [all] Error 2

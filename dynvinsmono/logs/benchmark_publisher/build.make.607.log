@@ -1,4 +1,0 @@
-[35m[1mScanning dependencies of target benchmark_publisher[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/benchmark_publisher.dir/src/benchmark_publisher_node.cpp.o[0m
-[100%] [32m[1mLinking CXX executable /home/davencyw/catkinws/dynvinsmono/devel/.private/benchmark_publisher/lib/benchmark_publisher/benchmark_publisher[0m
-[100%] Built target benchmark_publisher
