@@ -1,0 +1,21 @@
+In file included from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/src/Estimator.cpp:42:0[m[K:
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/Estimator.hpp:589:3:[m[K [01;31m[Kerror: [m[K‘[01m[KPointlcassifier[m[K’ does not name a type
+   Pointlcassifier* classifier_;
+[01;32m[K   ^[m[K
+In file included from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/src/Estimator.cpp:42:0[m[K:
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/Estimator.hpp:[m[K In member function ‘[01m[Kbool okvis::Estimator::hasClassifier()[m[K’:
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/Estimator.hpp:416:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kclassifier_[m[K’ was not declared in this scope
+   bool hasClassifier(){return classifier_!nullptr;}
+[01;32m[K                               ^[m[K
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/Estimator.hpp:416:42:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K![m[K’ token
+   bool hasClassifier(){return classifier_!nullptr;}
+[01;32m[K                                          ^[m[K
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/Estimator.hpp:416:43:[m[K [01;31m[Kerror: [m[Kconverting to ‘[01m[Kbool[m[K’ from ‘[01m[Kstd::nullptr_t[m[K’ requires direct-initialization [-fpermissive]
+   bool hasClassifier(){return classifier_!nullptr;}
+[01;32m[K                                           ^[m[K
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/Estimator.hpp:416:50:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [-Wunused-value]
+   bool hasClassifier(){return classifier_!nullptr;}
+[01;32m[K                                                  ^[m[K
+make[2]: *** [okvis/okvis_ceres/CMakeFiles/okvis_ceres.dir/src/Estimator.cpp.o] Error 1
+make[1]: *** [okvis/okvis_ceres/CMakeFiles/okvis_ceres.dir/all] Error 2
+make: *** [all] Error 2

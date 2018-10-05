@@ -1,0 +1,14 @@
+In file included from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/../estimator.h:25:0[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/visualization.h:3[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/visualization.cpp:1[m[K:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/../dynenv/cluster.h:[m[K In member function ‘[01m[Kvoid ClusterAlgorithm::fillData(FeatureManager&)[m[K’:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/../dynenv/cluster.h:17:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kfeature_per_frame[m[K’ was not declared in this scope
+       coordinates.push_back([01;31m[Kfeature_per_frame[m[K.back().uv);
+                             [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/../dynenv/cluster.h:17:29:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KFeaturePerFrame[m[K’
+       coordinates.push_back([01;36m[Kfeature_per_frame[m[K.back().uv);
+                             [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+                             [32m[KFeaturePerFrame[m[K
+make[2]: *** [CMakeFiles/libutility.dir/src/utility/visualization.cpp.o] Error 1
+make[1]: *** [CMakeFiles/libutility.dir/all] Error 2
+make: *** [all] Error 2

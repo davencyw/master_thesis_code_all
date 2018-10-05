@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -std=c++17 -O3 -g  -shared -Wl,-soname,libgtest.so -o libgtest.so CMakeFiles/gtest.dir/src/gtest-all.cc.o  -L/home/davencyw/catkinws/dynvinsmono/build/vins_estimator/gtest/gtest/src -lpthread -Wl,-rpath,/home/davencyw/catkinws/dynvinsmono/build/vins_estimator/gtest/gtest/src 

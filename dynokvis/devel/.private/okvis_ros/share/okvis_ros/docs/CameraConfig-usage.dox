@@ -1,0 +1,54 @@
+\subsubsection usage Usage
+\verbatim
+<node name="okvis_ros" pkg="okvis_ros" type="okvis_ros">
+  <param name="cam0_name" type="str" value="cam0" />
+  <param name="cam0_agc_enable" type="bool" value="True" />
+  <param name="cam0_max_analog_gain" type="int" value="64" />
+  <param name="cam0_global_analog_gain" type="int" value="16" />
+  <param name="cam0_global_analog_gain_attenuation" type="bool" value="False" />
+  <param name="digital_gain" type="int" value="4" />
+  <param name="cam0_aec_enable" type="bool" value="True" />
+  <param name="cam0_min_coarse_shutter_width" type="int" value="2" />
+  <param name="cam0_max_coarse_shutter_width" type="int" value="500" />
+  <param name="cam0_coarse_shutter_width" type="int" value="480" />
+  <param name="cam0_fine_shutter_width" type="int" value="0" />
+  <param name="cam0_adc_mode" type="int" value="2" />
+  <param name="cam0_vref_adc_voltage_level" type="int" value="4" />
+  <param name="cam0_black_level_calibration_manual_override" type="bool" value="False" />
+  <param name="cam0_black_level_calibration_value" type="int" value="0" />
+  <param name="cam1_name" type="str" value="cam1" />
+  <param name="cam1_agc_enable" type="bool" value="True" />
+  <param name="cam1_max_analog_gain" type="int" value="64" />
+  <param name="cam1_global_analog_gain" type="int" value="16" />
+  <param name="cam1_global_analog_gain_attenuation" type="bool" value="False" />
+  <param name="cam1_aec_enable" type="bool" value="True" />
+  <param name="cam1_min_coarse_shutter_width" type="int" value="2" />
+  <param name="cam1_max_coarse_shutter_width" type="int" value="500" />
+  <param name="cam1_coarse_shutter_width" type="int" value="480" />
+  <param name="cam1_adc_mode" type="int" value="2" />
+  <param name="cam1_vref_adc_voltage_level" type="int" value="4" />
+  <param name="cam2_name" type="str" value="cam2" />
+  <param name="cam2_agc_enable" type="bool" value="True" />
+  <param name="cam2_max_analog_gain" type="int" value="64" />
+  <param name="cam2_global_analog_gain" type="int" value="16" />
+  <param name="cam2_global_analog_gain_attenuation" type="bool" value="False" />
+  <param name="cam2_aec_enable" type="bool" value="True" />
+  <param name="cam2_min_coarse_shutter_width" type="int" value="2" />
+  <param name="cam2_max_coarse_shutter_width" type="int" value="500" />
+  <param name="cam2_coarse_shutter_width" type="int" value="480" />
+  <param name="cam2_adc_mode" type="int" value="2" />
+  <param name="cam2_vref_adc_voltage_level" type="int" value="4" />
+  <param name="cam3_name" type="str" value="cam3" />
+  <param name="cam3_agc_enable" type="bool" value="True" />
+  <param name="cam3_max_analog_gain" type="int" value="64" />
+  <param name="cam3_global_analog_gain" type="int" value="16" />
+  <param name="cam3_global_analog_gain_attenuation" type="bool" value="False" />
+  <param name="cam3_aec_enable" type="bool" value="True" />
+  <param name="cam3_min_coarse_shutter_width" type="int" value="2" />
+  <param name="cam3_max_coarse_shutter_width" type="int" value="500" />
+  <param name="cam3_coarse_shutter_width" type="int" value="100" />
+  <param name="cam3_adc_mode" type="int" value="2" />
+  <param name="cam3_vref_adc_voltage_level" type="int" value="4" />
+</node>
+\endverbatim
+

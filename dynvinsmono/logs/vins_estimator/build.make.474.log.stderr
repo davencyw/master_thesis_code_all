@@ -1,0 +1,11 @@
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:92:22:[m[K [01;31m[Kerror: [m[Kprototype for ‘[01m[Kstd::vector<Cluster> SimpleCluster::computecluster(FeatureManager&, std::vector<std::pair<FeaturePerId*, double> >&, int, std::deque<Cluster>&)[m[K’ does not match any in class ‘[01m[KSimpleCluster[m[K’
+ std::vector<Cluster> SimpleCluster::computecluster(
+[01;32m[K                      ^[m[K
+In file included from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:1:0[m[K:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.h:55:24:[m[K [01;31m[Kerror: [m[Kcandidate is: virtual std::vector<Cluster> SimpleCluster::computecluster(FeatureManager&, std::vector<std::pair<FeaturePerId*, double> >&, int)
+   std::vector<Cluster> computecluster(
+[01;32m[K                        ^[m[K
+make[2]: *** [CMakeFiles/libdynenv.dir/src/dynenv/cluster.cc.o] Error 1
+make[1]: *** [CMakeFiles/libdynenv.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [all] Error 2

@@ -1,0 +1,49 @@
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/src/cluster.cpp:[m[K In member function ‘[01m[Kvirtual std::vector<okvis::ceres::dynenv::Cluster> okvis::ceres::dynenv::SimpleCluster::computecluster(std::vector<std::pair<okvis::MapPoint*, double> >&, std::vector<std::pair<Eigen::Matrix<double, 2, 1>, double> >)[m[K’:
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/src/cluster.cpp:190:9:[m[K [01;31m[Kerror: [m[K‘[01m[KVector2d[m[K’ was not declared in this scope
+         Vector2d center(0, 0);
+[01;32m[K         ^[m[K
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/src/cluster.cpp:190:9:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynokvis/build/okvis_ros/include/ceres/jet.h:164[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynokvis/build/okvis_ros/include/ceres/internal/autodiff.h:145[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynokvis/build/okvis_ros/include/ceres/autodiff_cost_function.h:132[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynokvis/build/okvis_ros/include/ceres/ceres.h:40[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/ceres/Map.hpp:44[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/dynenv/cluster.hpp:4[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/src/cluster.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:430:34:[m[K [01;36m[Knote: [m[K  ‘[01m[KEigen::Vector2d[m[K’
+ typedef Matrix<Type, Size, 1>    Vector##SizeSuffix##TypeSuffix;  \
+[01;32m[K                                  ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:441:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_MAKE_TYPEDEFS[m[K’
+ EIGEN_MAKE_TYPEDEFS(Type, TypeSuffix, 2, 2) \
+[01;32m[K ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:451:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_MAKE_TYPEDEFS_ALL_SIZES[m[K’
+ EIGEN_MAKE_TYPEDEFS_ALL_SIZES(double,               d)
+[01;32m[K ^[m[K
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/src/cluster.cpp:194:50:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [-Wsign-compare]
+         for(unsigned candidate_i(0); candidate_i < num_in_cluster; ++candidate_i){
+[01;32m[K                                                  ^[m[K
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/src/cluster.cpp:195:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kcenter[m[K’ was not declared in this scope
+           center += candidate_info[candidate_i].first;
+[01;32m[K           ^[m[K
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/src/cluster.cpp:205:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kcenter[m[K’ was not declared in this scope
+           center /= static_cast<double>(cluster_candidates.size());
+[01;32m[K           ^[m[K
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/src/cluster.cpp:209:52:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [-Wsign-compare]
+           for(unsigned candidate_i(0); candidate_i < num_in_cluster; ++candidate_i){
+[01;32m[K                                                    ^[m[K
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/src/cluster.cpp:210:19:[m[K [01;31m[Kerror: [m[K‘[01m[KVector2d[m[K’ does not name a type
+             const Vector2d dist(candidate_info[candidate_i].first -
+[01;32m[K                   ^[m[K
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/src/cluster.cpp:212:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kdist[m[K’ was not declared in this scope
+             const double distscalar(dist.norm());
+[01;32m[K                                     ^[m[K
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/src/cluster.cpp:231:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kit_per_id[m[K’ was not declared in this scope
+             averageweight += it_per_id.first->weight;
+[01;32m[K                              ^[m[K
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/src/cluster.cpp:241:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kcenter[m[K’ was not declared in this scope
+         temp_cluster.center = center;
+[01;32m[K                               ^[m[K
+make[2]: *** [okvis/okvis_ceres/CMakeFiles/okvis_ceres.dir/src/cluster.cpp.o] Error 1
+make[1]: *** [okvis/okvis_ceres/CMakeFiles/okvis_ceres.dir/all] Error 2
+make: *** [all] Error 2

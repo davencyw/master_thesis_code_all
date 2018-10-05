@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/davencyw/catkinws/dynokvis/devel/.private/okvis_ros/lib/libokvis_cv.a  CMakeFiles/okvis_cv.dir/src/CameraBase.cpp.o CMakeFiles/okvis_cv.dir/src/NCameraSystem.cpp.o
+/usr/bin/ranlib /home/davencyw/catkinws/dynokvis/devel/.private/okvis_ros/lib/libokvis_cv.a

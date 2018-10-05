@@ -1,0 +1,53 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~cam0_name" : \b [str] camera 0 min: , default: cam0, max: 
+- \b "~cam0_agc_enable" : \b [bool] automatic gain control min: False, default: True, max: True
+- \b "~cam0_max_analog_gain" : \b [int] max analog gain min: 16, default: 64, max: 64
+- \b "~cam0_global_analog_gain" : \b [int] analog gain min: 16, default: 16, max: 64
+- \b "~cam0_global_analog_gain_attenuation" : \b [bool] gain attenuation min: False, default: False, max: True
+- \b "~digital_gain" : \b [int] digital gain min: 1, default: 4, max: 15
+- \b "~cam0_aec_enable" : \b [bool] automatic exposure control min: False, default: True, max: True
+- \b "~cam0_min_coarse_shutter_width" : \b [int] min shutter width min: 2, default: 2, max: 32765
+- \b "~cam0_max_coarse_shutter_width" : \b [int] max shutter width min: 2, default: 500, max: 32765
+- \b "~cam0_coarse_shutter_width" : \b [int] shutter min: 2, default: 480, max: 32765
+- \b "~cam0_fine_shutter_width" : \b [int] shutter min: 0, default: 0, max: 1774
+- \b "~cam0_adc_mode" : \b [int] ADC Mode min: 2, default: 2, max: 3
+- \b "~cam0_vref_adc_voltage_level" : \b [int] Vref ADC Voltage level min: 0, default: 4, max: 7
+- \b "~cam0_black_level_calibration_manual_override" : \b [bool] Black level calibration manual override min: False, default: False, max: True
+- \b "~cam0_black_level_calibration_value" : \b [int] Black level calibration value min: -127, default: 0, max: 127
+- \b "~cam1_name" : \b [str] camera 1 min: , default: cam1, max: 
+- \b "~cam1_agc_enable" : \b [bool] automatic gain control min: False, default: True, max: True
+- \b "~cam1_max_analog_gain" : \b [int] max analog gain min: 16, default: 64, max: 64
+- \b "~cam1_global_analog_gain" : \b [int] analog gain min: 16, default: 16, max: 64
+- \b "~cam1_global_analog_gain_attenuation" : \b [bool] gain attenuation min: False, default: False, max: True
+- \b "~cam1_aec_enable" : \b [bool] automatic exposure control min: False, default: True, max: True
+- \b "~cam1_min_coarse_shutter_width" : \b [int] min shutter width min: 2, default: 2, max: 32765
+- \b "~cam1_max_coarse_shutter_width" : \b [int] max shutter width min: 2, default: 500, max: 32765
+- \b "~cam1_coarse_shutter_width" : \b [int] shutter min: 2, default: 480, max: 32765
+- \b "~cam1_adc_mode" : \b [int] ADC Mode min: 2, default: 2, max: 3
+- \b "~cam1_vref_adc_voltage_level" : \b [int] Vref ADC Voltage level min: 0, default: 4, max: 7
+- \b "~cam2_name" : \b [str] camera 2 min: , default: cam2, max: 
+- \b "~cam2_agc_enable" : \b [bool] automatic gain control min: False, default: True, max: True
+- \b "~cam2_max_analog_gain" : \b [int] max analog gain min: 16, default: 64, max: 64
+- \b "~cam2_global_analog_gain" : \b [int] analog gain min: 16, default: 16, max: 64
+- \b "~cam2_global_analog_gain_attenuation" : \b [bool] gain attenuation min: False, default: False, max: True
+- \b "~cam2_aec_enable" : \b [bool] automatic exposure control min: False, default: True, max: True
+- \b "~cam2_min_coarse_shutter_width" : \b [int] min shutter width min: 2, default: 2, max: 32765
+- \b "~cam2_max_coarse_shutter_width" : \b [int] max shutter width min: 2, default: 500, max: 32765
+- \b "~cam2_coarse_shutter_width" : \b [int] shutter min: 2, default: 480, max: 32765
+- \b "~cam2_adc_mode" : \b [int] ADC Mode min: 2, default: 2, max: 3
+- \b "~cam2_vref_adc_voltage_level" : \b [int] Vref ADC Voltage level min: 0, default: 4, max: 7
+- \b "~cam3_name" : \b [str] camera 3 min: , default: cam3, max: 
+- \b "~cam3_agc_enable" : \b [bool] automatic gain control min: False, default: True, max: True
+- \b "~cam3_max_analog_gain" : \b [int] max analog gain min: 16, default: 64, max: 64
+- \b "~cam3_global_analog_gain" : \b [int] analog gain min: 16, default: 16, max: 64
+- \b "~cam3_global_analog_gain_attenuation" : \b [bool] gain attenuation min: False, default: False, max: True
+- \b "~cam3_aec_enable" : \b [bool] automatic exposure control min: False, default: True, max: True
+- \b "~cam3_min_coarse_shutter_width" : \b [int] min shutter width min: 2, default: 2, max: 32765
+- \b "~cam3_max_coarse_shutter_width" : \b [int] max shutter width min: 2, default: 500, max: 32765
+- \b "~cam3_coarse_shutter_width" : \b [int] shutter min: 2, default: 100, max: 32765
+- \b "~cam3_adc_mode" : \b [int] ADC Mode min: 2, default: 2, max: 3
+- \b "~cam3_vref_adc_voltage_level" : \b [int] Vref ADC Voltage level min: 0, default: 4, max: 7
+

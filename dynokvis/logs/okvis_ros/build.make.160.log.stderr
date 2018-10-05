@@ -1,0 +1,8 @@
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_multisensor_processing/src/VioVisualizer.cpp:[m[K In member function ‘[01m[Kcv::Mat okvis::VioVisualizer::drawMatches(okvis::VioVisualizer::VisualizationData::Ptr&, std::size_t)[m[K’:
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_multisensor_processing/src/VioVisualizer.cpp:190:25:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kresidual[m[K’ [-Wunused-variable]
+            const double residual(*residualptr);
+[01;32m[K                         ^[m[K
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_multisensor_processing/src/VioVisualizer.cpp:215:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kresidual[m[K’ [-Wunused-variable]
+       const double residual(*residualptr);
+[01;32m[K                    ^[m[K
+/usr/bin/ld: warning: libboost_system.so.1.58.0, needed by /usr/local/lib/libvisensor.so, may conflict with libboost_system.so.1.67.0

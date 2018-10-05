@@ -1,0 +1,37 @@
+/usr/bin/ld: warning: libboost_system.so.1.58.0, needed by /usr/local/lib/libvisensor.so, may conflict with libboost_system.so.1.67.0
+In file included from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/Estimator.hpp:64:0[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_frontend/include/okvis/Frontend.hpp:46[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_multisensor_processing/include/okvis/ThreadedKFVio.hpp:51[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/include/okvis/Subscriber.hpp:70[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/okvis_node.cpp:55[m[K:
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/dynenv/pointclassifier.hpp:41:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kbool okvis::ceres::dynenv::Pointclassifier::ready[m[K’ conflicts with a previous declaration
+   bool ready = false;
+[01;32m[K                ^[m[K
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/dynenv/pointclassifier.hpp:26:8:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kbool okvis::ceres::dynenv::Pointclassifier::ready()[m[K’
+   bool ready(){return _ready;}
+[01;32m[K        ^[m[K
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/dynenv/pointclassifier.hpp:[m[K In member function ‘[01m[Kbool okvis::ceres::dynenv::Pointclassifier::ready()[m[K’:
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/dynenv/pointclassifier.hpp:26:23:[m[K [01;31m[Kerror: [m[K‘[01m[K_ready[m[K’ was not declared in this scope
+   bool ready(){return _ready;}
+[01;32m[K                       ^[m[K
+In file included from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/Estimator.hpp:64:0[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_frontend/include/okvis/Frontend.hpp:46[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_multisensor_processing/include/okvis/ThreadedKFVio.hpp:51[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/include/okvis/Subscriber.hpp:70[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/okvis_node_synchronous.cpp:59[m[K:
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/dynenv/pointclassifier.hpp:41:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kbool okvis::ceres::dynenv::Pointclassifier::ready[m[K’ conflicts with a previous declaration
+   bool ready = false;
+[01;32m[K                ^[m[K
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/dynenv/pointclassifier.hpp:26:8:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kbool okvis::ceres::dynenv::Pointclassifier::ready()[m[K’
+   bool ready(){return _ready;}
+[01;32m[K        ^[m[K
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/dynenv/pointclassifier.hpp:[m[K In member function ‘[01m[Kbool okvis::ceres::dynenv::Pointclassifier::ready()[m[K’:
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/dynenv/pointclassifier.hpp:26:23:[m[K [01;31m[Kerror: [m[K‘[01m[K_ready[m[K’ was not declared in this scope
+   bool ready(){return _ready;}
+[01;32m[K                       ^[m[K
+make[2]: *** [CMakeFiles/okvis_node.dir/src/okvis_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/okvis_node.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/okvis_node_synchronous.dir/src/okvis_node_synchronous.cpp.o] Error 1
+make[1]: *** [CMakeFiles/okvis_node_synchronous.dir/all] Error 2
+make: *** [all] Error 2

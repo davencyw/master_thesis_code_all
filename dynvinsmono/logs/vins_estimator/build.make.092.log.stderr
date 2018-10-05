@@ -1,0 +1,19 @@
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/estimator_node.cpp:[m[K In function ‘[01m[Kvoid process()[m[K’:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/estimator_node.cpp:332:7:[m[K [01;31m[Kerror: [m[K‘[01m[KCvImagePtr[m[K’ was not declared in this scope
+       [01;31m[KCvImagePtr[m[K ptr;
+       [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/estimator_node.cpp:332:7:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+In file included from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/estimator_node.cpp:2:0[m[K:
+[01m[K/opt/ros/kinetic/include/cv_bridge/cv_bridge.h:58:36:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcv_bridge::CvImagePtr[m[K’
+ typedef boost::shared_ptr<CvImage> [01;36m[KCvImagePtr[m[K;
+                                    [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/estimator_node.cpp:333:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kptr[m[K’ was not declared in this scope
+       [01;31m[Kptr[m[K = cv_bridge::toCvCopy(image_buf.back());
+       [01;31m[K^~~[m[K
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/estimator_node.cpp:333:7:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kpath[m[K’
+       [01;36m[Kptr[m[K = cv_bridge::toCvCopy(image_buf.back());
+       [01;36m[K^~~[m[K
+       [32m[Kpath[m[K
+make[2]: *** [CMakeFiles/vins_estimator.dir/src/estimator_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/vins_estimator.dir/all] Error 2
+make: *** [all] Error 2

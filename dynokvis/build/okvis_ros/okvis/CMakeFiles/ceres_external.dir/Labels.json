@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/davencyw/catkinws/dynokvis/build/okvis_ros/okvis/CMakeFiles/ceres_external"
+		},
+		{
+			"file" : "/home/davencyw/catkinws/dynokvis/build/okvis_ros/okvis/CMakeFiles/ceres_external.rule"
+		},
+		{
+			"file" : "/home/davencyw/catkinws/dynokvis/build/okvis_ros/okvis/CMakeFiles/ceres_external-complete.rule"
+		},
+		{
+			"file" : "/home/davencyw/catkinws/dynokvis/build/okvis_ros/okvis/ceres/src/ceres_external-stamp/ceres_external-install.rule"
+		},
+		{
+			"file" : "/home/davencyw/catkinws/dynokvis/build/okvis_ros/okvis/ceres/src/ceres_external-stamp/ceres_external-mkdir.rule"
+		},
+		{
+			"file" : "/home/davencyw/catkinws/dynokvis/build/okvis_ros/okvis/ceres/src/ceres_external-stamp/ceres_external-download.rule"
+		},
+		{
+			"file" : "/home/davencyw/catkinws/dynokvis/build/okvis_ros/okvis/ceres/src/ceres_external-stamp/ceres_external-update.rule"
+		},
+		{
+			"file" : "/home/davencyw/catkinws/dynokvis/build/okvis_ros/okvis/ceres/src/ceres_external-stamp/ceres_external-patch.rule"
+		},
+		{
+			"file" : "/home/davencyw/catkinws/dynokvis/build/okvis_ros/okvis/ceres/src/ceres_external-stamp/ceres_external-configure.rule"
+		},
+		{
+			"file" : "/home/davencyw/catkinws/dynokvis/build/okvis_ros/okvis/ceres/src/ceres_external-stamp/ceres_external-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ceres_external"
+		],
+		"name" : "ceres_external"
+	}
+}

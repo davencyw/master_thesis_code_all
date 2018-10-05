@@ -1,0 +1,195 @@
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/estimator_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/estimator_node.cpp:362:49:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KgetParam(const char [16], unsigned int&)[m[K’
+   n.getParam("nummeasurements", num_measurements);
+[01;32m[K                                                 ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/ros/ros.h:45:0[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/estimator_node.cpp:8[m[K:
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:1683:8:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::NodeHandle::getParam(const string&, double&) const <near match>
+   bool getParam(const std::string& key, double& d) const;
+[01;32m[K        ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:1683:8:[m[K [01;36m[Knote: [m[K  conversion of argument 2 would be ill-formed:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/estimator_node.cpp:362:49:[m[K [01;31m[Kerror: [m[Kinvalid initialization of non-const reference of type ‘[01m[Kdouble&[m[K’ from an rvalue of type ‘[01m[Kdouble[m[K’
+   n.getParam("nummeasurements", num_measurements);
+[01;32m[K                                                 ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/ros/ros.h:45:0[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/estimator_node.cpp:8[m[K:
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:1694:8:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::NodeHandle::getParam(const string&, float&) const <near match>
+   bool getParam(const std::string& key, float& f) const;
+[01;32m[K        ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:1694:8:[m[K [01;36m[Knote: [m[K  conversion of argument 2 would be ill-formed:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/estimator_node.cpp:362:49:[m[K [01;31m[Kerror: [m[Kinvalid initialization of non-const reference of type ‘[01m[Kfloat&[m[K’ from an rvalue of type ‘[01m[Kfloat[m[K’
+   n.getParam("nummeasurements", num_measurements);
+[01;32m[K                                                 ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/ros/ros.h:45:0[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/estimator_node.cpp:8[m[K:
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:1705:8:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::NodeHandle::getParam(const string&, int&) const <near match>
+   bool getParam(const std::string& key, int& i) const;
+[01;32m[K        ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:1705:8:[m[K [01;36m[Knote: [m[K  conversion of argument 2 would be ill-formed:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/estimator_node.cpp:362:49:[m[K [01;31m[Kerror: [m[Kinvalid initialization of non-const reference of type ‘[01m[Kint&[m[K’ from an rvalue of type ‘[01m[Kint[m[K’
+   n.getParam("nummeasurements", num_measurements);
+[01;32m[K                                                 ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/ros/ros.h:45:0[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/estimator_node.cpp:8[m[K:
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:1716:8:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::NodeHandle::getParam(const string&, bool&) const <near match>
+   bool getParam(const std::string& key, bool& b) const;
+[01;32m[K        ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:1716:8:[m[K [01;36m[Knote: [m[K  conversion of argument 2 would be ill-formed:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/estimator_node.cpp:362:49:[m[K [01;31m[Kerror: [m[Kinvalid initialization of non-const reference of type ‘[01m[Kbool&[m[K’ from an rvalue of type ‘[01m[Kbool[m[K’
+   n.getParam("nummeasurements", num_measurements);
+[01;32m[K                                                 ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/ros/ros.h:45:0[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/estimator_node.cpp:8[m[K:
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:1727:8:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::NodeHandle::getParam(const string&, XmlRpc::XmlRpcValue&) const <near match>
+   bool getParam(const std::string& key, XmlRpc::XmlRpcValue& v) const;
+[01;32m[K        ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:1727:8:[m[K [01;36m[Knote: [m[K  conversion of argument 2 would be ill-formed:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/estimator_node.cpp:362:49:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[Kunsigned int[m[K’ to ‘[01m[KXmlRpc::XmlRpcValue[m[K’ is ambiguous
+   n.getParam("nummeasurements", num_measurements);
+[01;32m[K                                                 ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/ros/node_handle.h:52:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/estimator_node.cpp:8[m[K:
+[01m[K/opt/ros/kinetic/include/xmlrpcpp/XmlRpcValue.h:51:5:[m[K [01;36m[Knote: [m[Kcandidate: XmlRpc::XmlRpcValue::XmlRpcValue(double)
+     XmlRpcValue(double value)  : _type(TypeDouble) { _value.asDouble = value; }
+[01;32m[K     ^[m[K
+[01m[K/opt/ros/kinetic/include/xmlrpcpp/XmlRpcValue.h:50:5:[m[K [01;36m[Knote: [m[Kcandidate: XmlRpc::XmlRpcValue::XmlRpcValue(int)
+     XmlRpcValue(int value)  : _type(TypeInt) { _value.asInt = value; }
+[01;32m[K     ^[m[K
+[01m[K/opt/ros/kinetic/include/xmlrpcpp/XmlRpcValue.h:49:5:[m[K [01;36m[Knote: [m[Kcandidate: XmlRpc::XmlRpcValue::XmlRpcValue(bool)
+     XmlRpcValue(bool value) : _type(TypeBoolean) { _value.asBool = value; }
+[01;32m[K     ^[m[K
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/estimator_node.cpp:363:54:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KgetParam(const char [19], unsigned int&)[m[K’
+   n.getParam("cluster_windowsize", cluster_windowsize);
+[01;32m[K                                                      ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/ros/ros.h:45:0[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/estimator_node.cpp:8[m[K:
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:1683:8:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::NodeHandle::getParam(const string&, double&) const <near match>
+   bool getParam(const std::string& key, double& d) const;
+[01;32m[K        ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:1683:8:[m[K [01;36m[Knote: [m[K  conversion of argument 2 would be ill-formed:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/estimator_node.cpp:363:54:[m[K [01;31m[Kerror: [m[Kinvalid initialization of non-const reference of type ‘[01m[Kdouble&[m[K’ from an rvalue of type ‘[01m[Kdouble[m[K’
+   n.getParam("cluster_windowsize", cluster_windowsize);
+[01;32m[K                                                      ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/ros/ros.h:45:0[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/estimator_node.cpp:8[m[K:
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:1694:8:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::NodeHandle::getParam(const string&, float&) const <near match>
+   bool getParam(const std::string& key, float& f) const;
+[01;32m[K        ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:1694:8:[m[K [01;36m[Knote: [m[K  conversion of argument 2 would be ill-formed:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/estimator_node.cpp:363:54:[m[K [01;31m[Kerror: [m[Kinvalid initialization of non-const reference of type ‘[01m[Kfloat&[m[K’ from an rvalue of type ‘[01m[Kfloat[m[K’
+   n.getParam("cluster_windowsize", cluster_windowsize);
+[01;32m[K                                                      ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/ros/ros.h:45:0[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/estimator_node.cpp:8[m[K:
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:1705:8:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::NodeHandle::getParam(const string&, int&) const <near match>
+   bool getParam(const std::string& key, int& i) const;
+[01;32m[K        ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:1705:8:[m[K [01;36m[Knote: [m[K  conversion of argument 2 would be ill-formed:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/estimator_node.cpp:363:54:[m[K [01;31m[Kerror: [m[Kinvalid initialization of non-const reference of type ‘[01m[Kint&[m[K’ from an rvalue of type ‘[01m[Kint[m[K’
+   n.getParam("cluster_windowsize", cluster_windowsize);
+[01;32m[K                                                      ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/ros/ros.h:45:0[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/estimator_node.cpp:8[m[K:
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:1716:8:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::NodeHandle::getParam(const string&, bool&) const <near match>
+   bool getParam(const std::string& key, bool& b) const;
+[01;32m[K        ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:1716:8:[m[K [01;36m[Knote: [m[K  conversion of argument 2 would be ill-formed:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/estimator_node.cpp:363:54:[m[K [01;31m[Kerror: [m[Kinvalid initialization of non-const reference of type ‘[01m[Kbool&[m[K’ from an rvalue of type ‘[01m[Kbool[m[K’
+   n.getParam("cluster_windowsize", cluster_windowsize);
+[01;32m[K                                                      ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/ros/ros.h:45:0[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/estimator_node.cpp:8[m[K:
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:1727:8:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::NodeHandle::getParam(const string&, XmlRpc::XmlRpcValue&) const <near match>
+   bool getParam(const std::string& key, XmlRpc::XmlRpcValue& v) const;
+[01;32m[K        ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:1727:8:[m[K [01;36m[Knote: [m[K  conversion of argument 2 would be ill-formed:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/estimator_node.cpp:363:54:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[Kunsigned int[m[K’ to ‘[01m[KXmlRpc::XmlRpcValue[m[K’ is ambiguous
+   n.getParam("cluster_windowsize", cluster_windowsize);
+[01;32m[K                                                      ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/ros/node_handle.h:52:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/estimator_node.cpp:8[m[K:
+[01m[K/opt/ros/kinetic/include/xmlrpcpp/XmlRpcValue.h:51:5:[m[K [01;36m[Knote: [m[Kcandidate: XmlRpc::XmlRpcValue::XmlRpcValue(double)
+     XmlRpcValue(double value)  : _type(TypeDouble) { _value.asDouble = value; }
+[01;32m[K     ^[m[K
+[01m[K/opt/ros/kinetic/include/xmlrpcpp/XmlRpcValue.h:50:5:[m[K [01;36m[Knote: [m[Kcandidate: XmlRpc::XmlRpcValue::XmlRpcValue(int)
+     XmlRpcValue(int value)  : _type(TypeInt) { _value.asInt = value; }
+[01;32m[K     ^[m[K
+[01m[K/opt/ros/kinetic/include/xmlrpcpp/XmlRpcValue.h:49:5:[m[K [01;36m[Knote: [m[Kcandidate: XmlRpc::XmlRpcValue::XmlRpcValue(bool)
+     XmlRpcValue(bool value) : _type(TypeBoolean) { _value.asBool = value; }
+[01;32m[K     ^[m[K
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/estimator_node.cpp:364:66:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KgetParam(const char [25], unsigned int&)[m[K’
+   n.getParam("num_cluster_confirmation", num_cluster_confirmation);
+[01;32m[K                                                                  ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/ros/ros.h:45:0[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/estimator_node.cpp:8[m[K:
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:1683:8:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::NodeHandle::getParam(const string&, double&) const <near match>
+   bool getParam(const std::string& key, double& d) const;
+[01;32m[K        ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:1683:8:[m[K [01;36m[Knote: [m[K  conversion of argument 2 would be ill-formed:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/estimator_node.cpp:364:66:[m[K [01;31m[Kerror: [m[Kinvalid initialization of non-const reference of type ‘[01m[Kdouble&[m[K’ from an rvalue of type ‘[01m[Kdouble[m[K’
+   n.getParam("num_cluster_confirmation", num_cluster_confirmation);
+[01;32m[K                                                                  ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/ros/ros.h:45:0[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/estimator_node.cpp:8[m[K:
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:1694:8:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::NodeHandle::getParam(const string&, float&) const <near match>
+   bool getParam(const std::string& key, float& f) const;
+[01;32m[K        ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:1694:8:[m[K [01;36m[Knote: [m[K  conversion of argument 2 would be ill-formed:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/estimator_node.cpp:364:66:[m[K [01;31m[Kerror: [m[Kinvalid initialization of non-const reference of type ‘[01m[Kfloat&[m[K’ from an rvalue of type ‘[01m[Kfloat[m[K’
+   n.getParam("num_cluster_confirmation", num_cluster_confirmation);
+[01;32m[K                                                                  ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/ros/ros.h:45:0[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/estimator_node.cpp:8[m[K:
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:1705:8:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::NodeHandle::getParam(const string&, int&) const <near match>
+   bool getParam(const std::string& key, int& i) const;
+[01;32m[K        ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:1705:8:[m[K [01;36m[Knote: [m[K  conversion of argument 2 would be ill-formed:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/estimator_node.cpp:364:66:[m[K [01;31m[Kerror: [m[Kinvalid initialization of non-const reference of type ‘[01m[Kint&[m[K’ from an rvalue of type ‘[01m[Kint[m[K’
+   n.getParam("num_cluster_confirmation", num_cluster_confirmation);
+[01;32m[K                                                                  ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/ros/ros.h:45:0[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/estimator_node.cpp:8[m[K:
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:1716:8:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::NodeHandle::getParam(const string&, bool&) const <near match>
+   bool getParam(const std::string& key, bool& b) const;
+[01;32m[K        ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:1716:8:[m[K [01;36m[Knote: [m[K  conversion of argument 2 would be ill-formed:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/estimator_node.cpp:364:66:[m[K [01;31m[Kerror: [m[Kinvalid initialization of non-const reference of type ‘[01m[Kbool&[m[K’ from an rvalue of type ‘[01m[Kbool[m[K’
+   n.getParam("num_cluster_confirmation", num_cluster_confirmation);
+[01;32m[K                                                                  ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/ros/ros.h:45:0[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/estimator_node.cpp:8[m[K:
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:1727:8:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::NodeHandle::getParam(const string&, XmlRpc::XmlRpcValue&) const <near match>
+   bool getParam(const std::string& key, XmlRpc::XmlRpcValue& v) const;
+[01;32m[K        ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:1727:8:[m[K [01;36m[Knote: [m[K  conversion of argument 2 would be ill-formed:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/estimator_node.cpp:364:66:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[Kunsigned int[m[K’ to ‘[01m[KXmlRpc::XmlRpcValue[m[K’ is ambiguous
+   n.getParam("num_cluster_confirmation", num_cluster_confirmation);
+[01;32m[K                                                                  ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/ros/node_handle.h:52:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/estimator_node.cpp:8[m[K:
+[01m[K/opt/ros/kinetic/include/xmlrpcpp/XmlRpcValue.h:51:5:[m[K [01;36m[Knote: [m[Kcandidate: XmlRpc::XmlRpcValue::XmlRpcValue(double)
+     XmlRpcValue(double value)  : _type(TypeDouble) { _value.asDouble = value; }
+[01;32m[K     ^[m[K
+[01m[K/opt/ros/kinetic/include/xmlrpcpp/XmlRpcValue.h:50:5:[m[K [01;36m[Knote: [m[Kcandidate: XmlRpc::XmlRpcValue::XmlRpcValue(int)
+     XmlRpcValue(int value)  : _type(TypeInt) { _value.asInt = value; }
+[01;32m[K     ^[m[K
+[01m[K/opt/ros/kinetic/include/xmlrpcpp/XmlRpcValue.h:49:5:[m[K [01;36m[Knote: [m[Kcandidate: XmlRpc::XmlRpcValue::XmlRpcValue(bool)
+     XmlRpcValue(bool value) : _type(TypeBoolean) { _value.asBool = value; }
+[01;32m[K     ^[m[K
+In file included from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/estimator.h:25:0[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/estimator_node.cpp:12[m[K:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.h:33:3:[m[K [01;31m[Kerror: [m[K‘[01m[KSimpleCluster::SimpleCluster(unsigned int, unsigned int)[m[K’ is private
+   SimpleCluster(const unsigned cluster_windowsize,
+[01;32m[K   ^[m[K
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/estimator_node.cpp:380:69:[m[K [01;31m[Kerror: [m[Kwithin this context
+       new SimpleCluster(cluster_windowsize, num_cluster_confirmation));
+[01;32m[K                                                                     ^[m[K
+At global scope:
+[01m[Kcc1plus:[m[K [01;35m[Kwarning: [m[Kunrecognized command line option ‘[01m[K-Wno-ignored-attributes[m[K’
+make[2]: *** [CMakeFiles/vins_estimator.dir/src/estimator_node.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/vins_estimator.dir/all] Error 2
+make: *** [all] Error 2

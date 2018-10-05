@@ -1,0 +1,7 @@
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:[m[K In member function ‘[01m[Kvoid ClusterAlgorithm::cluster(FeatureManager&, int, std::deque<std::vector<Cluster> >&)[m[K’:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:14:71:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+   std::vector<Cluster> new_cluster(computecluster(cluster_candidates, ));
+[01;32m[K                                                                       ^[m[K
+make[2]: *** [CMakeFiles/libdynenv.dir/src/dynenv/cluster.cc.o] Error 1
+make[1]: *** [CMakeFiles/libdynenv.dir/all] Error 2
+make: *** [all] Error 2

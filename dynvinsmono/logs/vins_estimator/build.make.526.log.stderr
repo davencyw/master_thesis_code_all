@@ -1,0 +1,61 @@
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:[m[K In member function ‘[01m[Kvoid DbscanCluster::dbscan(const std::vector<std::pair<FeaturePerId*, double> >&, double, unsigned int)[m[K’:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:239:24:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[KEigen::MatrixBase<Eigen::Matrix<float, -1, -1> >::DiagonalReturnType {aka Eigen::Diagonal<Eigen::Matrix<float, -1, -1>, 0>}[m[K’ and ‘[01m[Kint[m[K’)
+   distances.diagonal() = 0;
+[01;32m[K                        ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:62:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/../feature_manager.h:10[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.h:4[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Diagonal.h:75:5:[m[K [01;36m[Knote: [m[Kcandidate: Eigen::Diagonal<MatrixType, Index>& Eigen::Diagonal<MatrixType, Index>::operator=(const Eigen::Diagonal<MatrixType, Index>&) [with MatrixType = Eigen::Matrix<float, -1, -1>; int _DiagIndex = 0]
+     EIGEN_INHERIT_ASSIGNMENT_OPERATORS(Diagonal)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Diagonal.h:75:5:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst Eigen::Diagonal<Eigen::Matrix<float, -1, -1>, 0>&[m[K’
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:345:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/../feature_manager.h:10[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.h:4[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:154:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Derived& Eigen::MatrixBase<Derived>::operator=(const Eigen::ReturnByValue<OtherDerived>&) [with OtherDerived = OtherDerived; Derived = Eigen::Diagonal<Eigen::Matrix<float, -1, -1>, 0>]
+     Derived& operator=(const ReturnByValue<OtherDerived>& other);
+[01;32m[K              ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:154:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:239:24:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::ReturnByValue<Derived>[m[K’ and ‘[01m[Kint[m[K’
+   distances.diagonal() = 0;
+[01;32m[K                        ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:345:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/../feature_manager.h:10[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.h:4[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:150:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Derived& Eigen::MatrixBase<Derived>::operator=(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; Derived = Eigen::Diagonal<Eigen::Matrix<float, -1, -1>, 0>]
+     Derived& operator=(const EigenBase<OtherDerived>& other);
+[01;32m[K              ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:150:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:239:24:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::EigenBase<Derived>[m[K’ and ‘[01m[Kint[m[K’
+   distances.diagonal() = 0;
+[01;32m[K                        ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:345:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/../feature_manager.h:10[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.h:4[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:146:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Derived& Eigen::MatrixBase<Derived>::operator=(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = OtherDerived; Derived = Eigen::Diagonal<Eigen::Matrix<float, -1, -1>, 0>]
+     Derived& operator=(const DenseBase<OtherDerived>& other);
+[01;32m[K              ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:146:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:239:24:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::DenseBase<Derived>[m[K’ and ‘[01m[Kint[m[K’
+   distances.diagonal() = 0;
+[01;32m[K                        ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:354:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/../feature_manager.h:10[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.h:4[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Assign.h:55:30:[m[K [01;36m[Knote: [m[Kcandidate: Derived& Eigen::MatrixBase<Derived>::operator=(const Eigen::MatrixBase<Derived>&) [with Derived = Eigen::Diagonal<Eigen::Matrix<float, -1, -1>, 0>]
+ EIGEN_STRONG_INLINE Derived& MatrixBase<Derived>::operator=(const MatrixBase& other)
+[01;32m[K                              ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Assign.h:55:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst Eigen::MatrixBase<Eigen::Diagonal<Eigen::Matrix<float, -1, -1>, 0> >&[m[K’
+make[2]: *** [CMakeFiles/libdynenv.dir/src/dynenv/cluster.cc.o] Error 1
+make[1]: *** [CMakeFiles/libdynenv.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,20 @@
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:[m[K In member function ‘[01m[Kvoid ClusterAlgorithm::cluster(FeatureManager&, int, std::deque<Cluster>&)[m[K’:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:12:45:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KClusterAlgorithm::selectPoints(FeatureManager&, std::vector<FeaturePerId*>&)[m[K’
+   selectPoints(f_manager, cluster_candidates);
+[01;32m[K                                             ^[m[K
+In file included from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:1:0[m[K:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.h:31:8:[m[K [01;36m[Knote: [m[Kcandidate: void ClusterAlgorithm::selectPoints()
+   void selectPoints();
+[01;32m[K        ^[m[K
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.h:31:8:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:[m[K At global scope:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:19:6:[m[K [01;31m[Kerror: [m[Kprototype for ‘[01m[Kvoid ClusterAlgorithm::selectPoints(FeatureManager&, std::vector<FeaturePerId*>&)[m[K’ does not match any in class ‘[01m[KClusterAlgorithm[m[K’
+ void ClusterAlgorithm::selectPoints(
+[01;32m[K      ^[m[K
+In file included from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:1:0[m[K:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.h:31:8:[m[K [01;31m[Kerror: [m[Kcandidate is: void ClusterAlgorithm::selectPoints()
+   void selectPoints();
+[01;32m[K        ^[m[K
+make[2]: *** [CMakeFiles/libdynenv.dir/src/dynenv/cluster.cc.o] Error 1
+make[1]: *** [CMakeFiles/libdynenv.dir/all] Error 2
+make: *** [all] Error 2

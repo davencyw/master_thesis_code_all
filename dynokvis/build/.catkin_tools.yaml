@@ -1,0 +1,6 @@
+devel_space: /home/davencyw/catkinws/dynokvis/devel
+install: false
+install_space: /home/davencyw/catkinws/dynokvis/install
+profile: default
+source_space: /home/davencyw/catkinws/dynokvis/src
+workspace: /home/davencyw/catkinws/dynokvis

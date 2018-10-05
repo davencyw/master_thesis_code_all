@@ -1,0 +1,8 @@
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/estimator.cpp:[m[K In member function ‘[01m[Kvoid Estimator::updateWeights()[m[K’:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/estimator.cpp:640:18:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kready[m[K’ in ‘[01m[K((Estimator*)this)->Estimator::classifier[m[K’, which is of pointer type ‘[01m[KClassifyPoint*[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+   if (classifier.[01;31m[Kready[m[K()) {
+                  [01;31m[K^~~~~[m[K
+make[2]: *** [CMakeFiles/vins_estimator.dir/src/estimator.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/vins_estimator.dir/all] Error 2
+make: *** [all] Error 2

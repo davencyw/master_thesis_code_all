@@ -1,0 +1,24 @@
+In file included from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/../estimator.h:26:0[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/visualization.h:3[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/visualization.cpp:1[m[K:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/../dynenv/pointclassifier.h:[m[K In function ‘[01m[Kdouble ExponentialWeighting(double, double, double, double)[m[K’:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/../dynenv/pointclassifier.h:21:10:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K=[m[K’ token
+   return [01;31m[K=[m[K 1.0 - (local_weight - 1.0) / (expweightdist - 1.0);
+          [01;31m[K^[m[K
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/../dynenv/pointclassifier.h:[m[K In function ‘[01m[Kdouble Weighting(double, double)[m[K’:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/../dynenv/pointclassifier.h:29:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kreproject_error_tolerance[m[K’ was not declared in this scope
+       [01;31m[Kreproject_error_tolerance[m[K, reproject_error_max, expweightdist, residual);
+       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/../dynenv/pointclassifier.h:29:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kreproject_error_max[m[K’ was not declared in this scope
+       reproject_error_tolerance, [01;31m[Kreproject_error_max[m[K, expweightdist, residual);
+                                  [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/../dynenv/pointclassifier.h:29:34:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KReprojectionError3D[m[K’
+       reproject_error_tolerance, [01;36m[Kreproject_error_max[m[K, expweightdist, residual);
+                                  [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+                                  [32m[KReprojectionError3D[m[K
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/../dynenv/pointclassifier.h:29:55:[m[K [01;31m[Kerror: [m[K‘[01m[Kexpweightdist[m[K’ was not declared in this scope
+       reproject_error_tolerance, reproject_error_max, [01;31m[Kexpweightdist[m[K, residual);
+                                                       [01;31m[K^~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/libutility.dir/src/utility/visualization.cpp.o] Error 1
+make[1]: *** [CMakeFiles/libutility.dir/all] Error 2
+make: *** [all] Error 2

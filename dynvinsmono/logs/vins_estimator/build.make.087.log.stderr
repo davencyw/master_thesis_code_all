@@ -1,0 +1,25 @@
+In file included from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/../estimator.h:25:0[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/visualization.h:3[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/visualization.cpp:1[m[K:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/../dynenv/cluster.h:33:20:[m[K [01;31m[Kerror: [m[Ktype/value mismatch at argument 1 in template parameter list for ‘[01m[Ktemplate<class _Tp, class _Alloc> class std::vector[m[K’
+   std::vector<std::[01;31m[Kvector[m[K>> clusterhulls;
+                    [01;31m[K^~~~~~[m[K
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/../dynenv/cluster.h:33:20:[m[K [01;36m[Knote: [m[K  expected a type, got ‘[01m[Kvector[m[K’
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/../dynenv/cluster.h:33:20:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/../dynenv/cluster.h:33:26:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K>[m[K’ token
+   std::vector<std::vector[01;31m[K>>[m[K clusterhulls;
+                          [01;31m[K^~[m[K
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/visualization.cpp:[m[K In function ‘[01m[Kvoid pubImageFeatureClassification(const Estimator&, const Header&)[m[K’:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/visualization.cpp:424:3:[m[K [01;31m[Kerror: [m[K‘[01m[Km_img[m[K’ was not declared in this scope
+   [01;31m[Km_img[m[K.lock();
+   [01;31m[K^~~~~[m[K
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/visualization.cpp:425:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kimage_buf[m[K’ was not declared in this scope
+   image = [01;31m[Kimage_buf[m[K.back->data;
+           [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/visualization.cpp:425:11:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kimage[m[K’
+   image = [01;36m[Kimage_buf[m[K.back->data;
+           [01;36m[K^~~~~~~~~[m[K
+           [32m[Kimage[m[K
+make[2]: *** [CMakeFiles/libutility.dir/src/utility/visualization.cpp.o] Error 1
+make[1]: *** [CMakeFiles/libutility.dir/all] Error 2
+make: *** [all] Error 2

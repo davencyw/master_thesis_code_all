@@ -1,0 +1,17 @@
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:[m[K In member function ‘[01m[Kstd::vector<int> DbscanCluster::regionQuery(int, double, const std::vector<std::pair<FeaturePerId*, double> >&)[m[K’:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:265:66:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst value_type {aka const std::pair<FeaturePerId*, double>}[m[K’
+     const FeaturePerId *feature_a(cluster_candidates[candidate_i]->first);
+[01;32m[K                                                                  ^[m[K
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:266:66:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst value_type {aka const std::pair<FeaturePerId*, double>}[m[K’
+     const FeaturePerId *feature_b(cluster_candidates[candidate_j]->first);
+[01;32m[K                                                                  ^[m[K
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:268:42:[m[K [01;31m[Kerror: [m[K‘[01m[KdistanceFunc[m[K’ was not declared in this scope
+     if (distanceFunc(feature_a, feature_b) <= eps) {
+[01;32m[K                                          ^[m[K
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:[m[K In member function ‘[01m[Kvoid DbscanCluster::expandCluster(int, const std::vector<int>&, std::map<unsigned int, int>&, const std::vector<std::pair<FeaturePerId*, double> >&, int, unsigned int)[m[K’:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:285:48:[m[K [01;31m[Kerror: [m[K‘[01m[Keps[m[K’ was not declared in this scope
+           regionQuery(neighbours[neighbour_i], eps, cluster_candidates);
+[01;32m[K                                                ^[m[K
+make[2]: *** [CMakeFiles/libdynenv.dir/src/dynenv/cluster.cc.o] Error 1
+make[1]: *** [CMakeFiles/libdynenv.dir/all] Error 2
+make: *** [all] Error 2

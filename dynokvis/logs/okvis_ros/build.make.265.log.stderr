@@ -1,0 +1,52 @@
+In file included from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/src/cluster.cpp:1:0[m[K:
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/dynenv/cluster.hpp:[m[K In constructor ‘[01m[Kokvis::ceres::dynenv::SimpleCluster::SimpleCluster(unsigned int, unsigned int)[m[K’:
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/dynenv/cluster.hpp:67:70:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kokvis::ceres::dynenv::ClusterAlgorithm::ClusterAlgorithm(const unsigned int&, const unsigned int&)[m[K’
+       : ClusterAlgorithm(cluster_windowsize, num_cluster_confirmation){};
+[01;32m[K                                                                      ^[m[K
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/dynenv/cluster.hpp:29:7:[m[K [01;36m[Knote: [m[Kcandidate: constexpr okvis::ceres::dynenv::ClusterAlgorithm::ClusterAlgorithm()
+ class ClusterAlgorithm{
+[01;32m[K       ^[m[K
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/dynenv/cluster.hpp:29:7:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/dynenv/cluster.hpp:29:7:[m[K [01;36m[Knote: [m[Kcandidate: constexpr okvis::ceres::dynenv::ClusterAlgorithm::ClusterAlgorithm(const okvis::ceres::dynenv::ClusterAlgorithm&)
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/dynenv/cluster.hpp:29:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/dynenv/cluster.hpp:29:7:[m[K [01;36m[Knote: [m[Kcandidate: constexpr okvis::ceres::dynenv::ClusterAlgorithm::ClusterAlgorithm(okvis::ceres::dynenv::ClusterAlgorithm&&)
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/dynenv/cluster.hpp:29:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/src/cluster.cpp:[m[K In member function ‘[01m[Kvirtual std::vector<okvis::ceres::dynenv::Cluster> okvis::ceres::dynenv::SimpleCluster::computecluster(std::vector<std::pair<okvis::MapPoint*, double> >&)[m[K’:
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/src/cluster.cpp:182:5:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [-Wreturn-type]
+     }
+[01;32m[K     ^[m[K
+In file included from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/Estimator.hpp:67:0[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/src/Estimator.cpp:42[m[K:
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/dynenv/cluster.hpp:[m[K In constructor ‘[01m[Kokvis::ceres::dynenv::SimpleCluster::SimpleCluster(unsigned int, unsigned int)[m[K’:
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/dynenv/cluster.hpp:67:70:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kokvis::ceres::dynenv::ClusterAlgorithm::ClusterAlgorithm(const unsigned int&, const unsigned int&)[m[K’
+       : ClusterAlgorithm(cluster_windowsize, num_cluster_confirmation){};
+[01;32m[K                                                                      ^[m[K
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/dynenv/cluster.hpp:29:7:[m[K [01;36m[Knote: [m[Kcandidate: constexpr okvis::ceres::dynenv::ClusterAlgorithm::ClusterAlgorithm()
+ class ClusterAlgorithm{
+[01;32m[K       ^[m[K
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/dynenv/cluster.hpp:29:7:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/dynenv/cluster.hpp:29:7:[m[K [01;36m[Knote: [m[Kcandidate: constexpr okvis::ceres::dynenv::ClusterAlgorithm::ClusterAlgorithm(const okvis::ceres::dynenv::ClusterAlgorithm&)
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/dynenv/cluster.hpp:29:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/dynenv/cluster.hpp:29:7:[m[K [01;36m[Knote: [m[Kcandidate: constexpr okvis::ceres::dynenv::ClusterAlgorithm::ClusterAlgorithm(okvis::ceres::dynenv::ClusterAlgorithm&&)
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/dynenv/cluster.hpp:29:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/dynenv/cluster.hpp:[m[K In constructor ‘[01m[Kokvis::Estimator::Estimator(std::shared_ptr<okvis::ceres::Map>)[m[K’:
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/dynenv/cluster.hpp:69:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kconstexpr okvis::ceres::dynenv::SimpleCluster::SimpleCluster()[m[K’ is protected
+   SimpleCluster() = default;
+[01;32m[K   ^[m[K
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/src/Estimator.cpp:64:54:[m[K [01;31m[Kerror: [m[Kwithin this context
+       ,clusteralgo_(new ceres::dynenv::SimpleCluster())
+[01;32m[K                                                      ^[m[K
+In file included from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/Estimator.hpp:67:0[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/src/Estimator.cpp:42[m[K:
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/dynenv/cluster.hpp:[m[K In constructor ‘[01m[Kokvis::Estimator::Estimator()[m[K’:
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/dynenv/cluster.hpp:69:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kconstexpr okvis::ceres::dynenv::SimpleCluster::SimpleCluster()[m[K’ is protected
+   SimpleCluster() = default;
+[01;32m[K   ^[m[K
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/src/Estimator.cpp:76:54:[m[K [01;31m[Kerror: [m[Kwithin this context
+       ,clusteralgo_(new ceres::dynenv::SimpleCluster())
+[01;32m[K                                                      ^[m[K
+make[2]: *** [okvis/okvis_ceres/CMakeFiles/okvis_ceres.dir/src/cluster.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [okvis/okvis_ceres/CMakeFiles/okvis_ceres.dir/src/Estimator.cpp.o] Error 1
+make[1]: *** [okvis/okvis_ceres/CMakeFiles/okvis_ceres.dir/all] Error 2
+make: *** [all] Error 2

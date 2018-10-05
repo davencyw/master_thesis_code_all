@@ -1,0 +1,8 @@
+prefix=/home/davencyw/catkinws/dynvinsmono/devel/.private/vins_estimator
+
+Name: vins_estimator
+Description: Description of vins_estimator
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/davencyw/catkinws/dynvinsmono/devel/.private/vins_estimator/lib 
+Requires: 

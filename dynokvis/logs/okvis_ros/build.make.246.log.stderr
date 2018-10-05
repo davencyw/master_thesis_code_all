@@ -1,0 +1,7 @@
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_multisensor_processing/src/ThreadedKFVio.cpp:[m[K In member function ‘[01m[Kvoid okvis::ThreadedKFVio::optimizationLoop()[m[K’:
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_multisensor_processing/src/ThreadedKFVio.cpp:735:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kupdate[m[K’ was not declared in this scope
+     update new and old features according to clustering
+[01;32m[K     ^[m[K
+make[2]: *** [okvis/okvis_multisensor_processing/CMakeFiles/okvis_multisensor_processing.dir/src/ThreadedKFVio.cpp.o] Error 1
+make[1]: *** [okvis/okvis_multisensor_processing/CMakeFiles/okvis_multisensor_processing.dir/all] Error 2
+make: *** [all] Error 2

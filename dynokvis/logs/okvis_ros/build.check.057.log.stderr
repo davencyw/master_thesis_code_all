@@ -1,0 +1,16 @@
+[33m[1mCMake Warning[0m at /usr/share/cmake-3.5/Modules/FindBoost.cmake:725 (message):
+  Imported targets not available for Boost version 106700
+[36mCall Stack (most recent call first):[0m
+  /usr/share/cmake-3.5/Modules/FindBoost.cmake:763 (_Boost_COMPONENT_DEPENDENCIES)
+  /usr/share/cmake-3.5/Modules/FindBoost.cmake:1332 (_Boost_MISSING_DEPENDENCIES)
+  okvis/CMakeLists.txt:317 (FIND_PACKAGE)
+
+
+[33m[1mCMake Warning[0m at /usr/share/cmake-3.5/Modules/FindBoost.cmake:725 (message):
+  Imported targets not available for Boost version 106700
+[36mCall Stack (most recent call first):[0m
+  /usr/share/cmake-3.5/Modules/FindBoost.cmake:763 (_Boost_COMPONENT_DEPENDENCIES)
+  /usr/share/cmake-3.5/Modules/FindBoost.cmake:1332 (_Boost_MISSING_DEPENDENCIES)
+  okvis/CMakeLists.txt:317 (FIND_PACKAGE)
+
+

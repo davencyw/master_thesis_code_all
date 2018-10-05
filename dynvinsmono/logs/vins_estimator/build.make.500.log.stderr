@@ -1,0 +1,48 @@
+In file included from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:1:0[m[K:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.h:42:75:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[K)[m[K’ token
+       std::vector<std::pair<FeaturePerId *, double>> &cluster_candidates, ) = 0;
+[01;32m[K                                                                           ^[m[K
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.h:57:75:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[K)[m[K’ token
+       std::vector<std::pair<FeaturePerId *, double>> &cluster_candidates, )
+[01;32m[K                                                                           ^[m[K
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.h:69:75:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[K)[m[K’ token
+       std::vector<std::pair<FeaturePerId *, double>> &cluster_candidates, )
+[01;32m[K                                                                           ^[m[K
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:[m[K In member function ‘[01m[Kvoid ClusterAlgorithm::cluster(FeatureManager&, int, std::deque<std::vector<Cluster> >&)[m[K’:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:15:63:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KClusterAlgorithm::computecluster(FeatureManager&, std::vector<std::pair<FeaturePerId*, double> >&, const int&)[m[K’
+       computecluster(f_manager, cluster_candidates, framecount));
+[01;32m[K                                                               ^[m[K
+In file included from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:1:0[m[K:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.h:41:32:[m[K [01;36m[Knote: [m[Kcandidate: virtual std::vector<Cluster> ClusterAlgorithm::computecluster(std::vector<std::pair<FeaturePerId*, double> >&, int)
+   virtual std::vector<Cluster> computecluster(
+[01;32m[K                                ^[m[K
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.h:41:32:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:[m[K At global scope:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:143:22:[m[K [01;31m[Kerror: [m[Kprototype for ‘[01m[Kstd::vector<Cluster> SimpleCluster::computecluster(std::vector<std::pair<FeaturePerId*, double> >&)[m[K’ does not match any in class ‘[01m[KSimpleCluster[m[K’
+ std::vector<Cluster> SimpleCluster::computecluster(
+[01;32m[K                      ^[m[K
+In file included from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:1:0[m[K:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.h:56:24:[m[K [01;31m[Kerror: [m[Kcandidate is: virtual std::vector<Cluster> SimpleCluster::computecluster(std::vector<std::pair<FeaturePerId*, double> >&, int)
+   std::vector<Cluster> computecluster(
+[01;32m[K                        ^[m[K
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:216:73:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[K)[m[K’ token
+     std::vector<std::pair<FeaturePerId *, double>> &cluster_candidates, ) {}
+[01;32m[K                                                                         ^[m[K
+make[2]: *** [CMakeFiles/libdynenv.dir/src/dynenv/cluster.cc.o] Error 1
+make[1]: *** [CMakeFiles/libdynenv.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/../estimator.h:25:0[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/visualization.h:3[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/visualization.cpp:1[m[K:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/../dynenv/cluster.h:42:75:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[K)[m[K’ token
+       std::vector<std::pair<FeaturePerId *, double>> &cluster_candidates, ) = 0;
+[01;32m[K                                                                           ^[m[K
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/../dynenv/cluster.h:57:75:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[K)[m[K’ token
+       std::vector<std::pair<FeaturePerId *, double>> &cluster_candidates, )
+[01;32m[K                                                                           ^[m[K
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/../dynenv/cluster.h:69:75:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[K)[m[K’ token
+       std::vector<std::pair<FeaturePerId *, double>> &cluster_candidates, )
+[01;32m[K                                                                           ^[m[K
+make[2]: *** [CMakeFiles/libutility.dir/src/utility/visualization.cpp.o] Error 1
+make[1]: *** [CMakeFiles/libutility.dir/all] Error 2
+make: *** [all] Error 2

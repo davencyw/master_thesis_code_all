@@ -1,0 +1,7 @@
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_multisensor_processing/src/VioVisualizer.cpp:[m[K In member function ‘[01m[Kcv::Mat okvis::VioVisualizer::drawMatches(okvis::VioVisualizer::VisualizationData::Ptr&, std::size_t)[m[K’:
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_multisensor_processing/src/VioVisualizer.cpp:208:39:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kat[m[K’ in ‘[01m[Klandmarksmap[m[K’, which is of pointer type ‘[01m[Kstd::map<long unsigned int, okvis::MapPoint, std::less<long unsigned int>, Eigen::aligned_allocator<okvis::MapPoint> >* const[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+     const auto landmark (landmarksmap.at(landmarksid));
+[01;32m[K                                       ^[m[K
+make[2]: *** [okvis/okvis_multisensor_processing/CMakeFiles/okvis_multisensor_processing.dir/src/VioVisualizer.cpp.o] Error 1
+make[1]: *** [okvis/okvis_multisensor_processing/CMakeFiles/okvis_multisensor_processing.dir/all] Error 2
+make: *** [all] Error 2

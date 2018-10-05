@@ -1,0 +1,24 @@
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:[m[K In member function ‘[01m[Kvoid ClusterAlgorithm::cluster(FeatureManager&, int, std::deque<Cluster>&)[m[K’:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:14:48:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kframecount[m[K’
+   computecluster(f_manager, cluster_candidates framecount, cluster);
+[01;32m[K                                                ^[m[K
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:14:67:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KClusterAlgorithm::computecluster(FeatureManager&, std::vector<FeaturePerId*>&, std::deque<Cluster>&)[m[K’
+   computecluster(f_manager, cluster_candidates framecount, cluster);
+[01;32m[K                                                                   ^[m[K
+In file included from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:1:0[m[K:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.h:36:16:[m[K [01;36m[Knote: [m[Kcandidate: virtual void ClusterAlgorithm::computecluster(FeatureManager&, std::vector<FeaturePerId*>&, int, std::deque<Cluster>&)
+   virtual void computecluster(FeatureManager &f_manager,
+[01;32m[K                ^[m[K
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.h:36:16:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 3 provided
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:[m[K At global scope:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:85:6:[m[K [01;31m[Kerror: [m[Kprototype for ‘[01m[Kvoid SimpleCluster::computecluster(FeatureManager&, int, std::deque<Cluster>&)[m[K’ does not match any in class ‘[01m[KSimpleCluster[m[K’
+ void SimpleCluster::computecluster(FeatureManager &f_manager,
+[01;32m[K      ^[m[K
+In file included from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:1:0[m[K:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.h:53:8:[m[K [01;31m[Kerror: [m[Kcandidate is: virtual void SimpleCluster::computecluster(FeatureManager&, std::vector<FeaturePerId*>&, int, std::deque<Cluster>&)
+   void computecluster(FeatureManager &f_manager,
+[01;32m[K        ^[m[K
+make[2]: *** [CMakeFiles/libdynenv.dir/src/dynenv/cluster.cc.o] Error 1
+make[1]: *** [CMakeFiles/libdynenv.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [all] Error 2

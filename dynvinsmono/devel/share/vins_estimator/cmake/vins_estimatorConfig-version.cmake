@@ -1,0 +1,1 @@
+/home/davencyw/catkinws/dynvinsmono/devel/.private/vins_estimator/share/vins_estimator/cmake/vins_estimatorConfig-version.cmake

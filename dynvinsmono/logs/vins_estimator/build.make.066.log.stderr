@@ -1,0 +1,10 @@
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/visualization.cpp:[m[K In function ‘[01m[Kvoid pubImageFeatureClassification(const Estimator&, const Header&)[m[K’:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/visualization.cpp:430:35:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[KEigen::DenseCoeffsBase<Derived, 1>::Scalar& Eigen::DenseCoeffsBase<Derived, 1>::x() [with Derived = Eigen::Matrix<double, 2, 1>; Eigen::DenseCoeffsBase<Derived, 1>::Scalar = double][m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+     const cv::Point point((int)[01;31m[Kuv.x[m[K, (int)uv.y);
+                                [01;31m[K~~~^[m[K
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/visualization.cpp:430:46:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[KEigen::DenseCoeffsBase<Derived, 1>::Scalar& Eigen::DenseCoeffsBase<Derived, 1>::y() [with Derived = Eigen::Matrix<double, 2, 1>; Eigen::DenseCoeffsBase<Derived, 1>::Scalar = double][m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+     const cv::Point point((int)uv.x, (int)[01;31m[Kuv.y[m[K);
+                                           [01;31m[K~~~^[m[K
+make[2]: *** [CMakeFiles/libutility.dir/src/utility/visualization.cpp.o] Error 1
+make[1]: *** [CMakeFiles/libutility.dir/all] Error 2
+make: *** [all] Error 2

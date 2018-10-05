@@ -1,0 +1,4 @@
+[33m[1mCMake Warning[0m at /home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/CMakeLists.txt:20 (message):
+  OpenCV_VERSION: 3.3.1
+
+

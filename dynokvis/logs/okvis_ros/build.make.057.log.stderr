@@ -1,0 +1,5 @@
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/src/Estimator.cpp:[m[K In member function ‘[01m[Kvoid okvis::Estimator::updateWeights()[m[K’:
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/src/Estimator.cpp:1313:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kobservation[m[K’ [-Wunused-variable]
+     for(auto const& observation : point.second.observations){
+[01;32m[K                     ^[m[K
+/usr/bin/ld: warning: libboost_system.so.1.58.0, needed by /usr/local/lib/libvisensor.so, may conflict with libboost_system.so.1.67.0

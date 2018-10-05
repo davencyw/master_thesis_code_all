@@ -1,0 +1,14 @@
+In file included from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/estimator.h:25:0[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/estimator_node.cpp:12[m[K:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.h:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.h:33:3:[m[K [01;31m[Kerror: [m[K‘[01m[KSimpleCluster::SimpleCluster(unsigned int, unsigned int)[m[K’ is private
+   SimpleCluster(const unsigned cluster_windowsize,
+[01;32m[K   ^[m[K
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/estimator_node.cpp:380:69:[m[K [01;31m[Kerror: [m[Kwithin this context
+       new SimpleCluster(cluster_windowsize, num_cluster_confirmation));
+[01;32m[K                                                                     ^[m[K
+At global scope:
+[01m[Kcc1plus:[m[K [01;35m[Kwarning: [m[Kunrecognized command line option ‘[01m[K-Wno-ignored-attributes[m[K’
+make[2]: *** [CMakeFiles/vins_estimator.dir/src/estimator_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/vins_estimator.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,41 @@
+In file included from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/../estimator.h:25:0[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/visualization.h:3[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/visualization.cpp:1[m[K:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/../dynenv/cluster.h:[m[K In lambda function:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/../dynenv/cluster.h:68:50:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ksecond[m[K’ in ‘[01m[Ki[m[K’, which is of pointer type ‘[01m[KFeaturePerId*[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+                          [](FeaturePerId *i) { i.[01;31m[Ksecond[m[K > 2.0 * averagedist; }),
+                                                  [01;31m[K^~~~~~[m[K
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/../dynenv/cluster.h:68:65:[m[K [01;31m[Kerror: [m[K‘[01m[Kaveragedist[m[K’ is not captured
+                          [](FeaturePerId *i) { i.second > 2.0 * [01;31m[Kaveragedist[m[K; }),
+                                                                 [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/../dynenv/cluster.h:68:27:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+                          [[01;36m[K][m[K(FeaturePerId *i) { i.second > 2.0 * averagedist; }),
+                           [01;36m[K^[m[K
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/../dynenv/cluster.h:55:14:[m[K [01;36m[Knote: [m[K‘[01m[Kdouble averagedist[m[K’ declared here
+       double [01;36m[Kaveragedist[m[K(0.0);
+              [01;36m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/7/bits/stl_algobase.h:71:0[m[K,
+                 from [01m[K/usr/include/c++/7/algorithm:61[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/../feature_manager.h:4[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/../estimator.h:3[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/visualization.h:3[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/visualization.cpp:1[m[K:
+/usr/include/c++/7/bits/predefined_ops.h: In instantiation of ‘[01m[Kbool __gnu_cxx::__ops::_Iter_pred<_Predicate>::operator()(_Iterator) [with _Iterator = __gnu_cxx::__normal_iterator<std::pair<FeaturePerId*, double>*, std::vector<std::pair<FeaturePerId*, double> > >; _Predicate = SimpleCluster::cluster(FeatureManager&, int)::<lambda(FeaturePerId*)>][m[K’:
+[01m[K/usr/include/c++/7/bits/stl_algo.h:869:13:[m[K   required from ‘[01m[K_ForwardIterator std::__remove_if(_ForwardIterator, _ForwardIterator, _Predicate) [with _ForwardIterator = __gnu_cxx::__normal_iterator<std::pair<FeaturePerId*, double>*, std::vector<std::pair<FeaturePerId*, double> > >; _Predicate = __gnu_cxx::__ops::_Iter_pred<SimpleCluster::cluster(FeatureManager&, int)::<lambda(FeaturePerId*)> >][m[K’
+[01m[K/usr/include/c++/7/bits/stl_algo.h:939:30:[m[K   required from ‘[01m[K_FIter std::remove_if(_FIter, _FIter, _Predicate) [with _FIter = __gnu_cxx::__normal_iterator<std::pair<FeaturePerId*, double>*, std::vector<std::pair<FeaturePerId*, double> > >; _Predicate = SimpleCluster::cluster(FeatureManager&, int)::<lambda(FeaturePerId*)>][m[K’
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/../dynenv/cluster.h:68:79:[m[K   required from here
+[01m[K/usr/include/c++/7/bits/predefined_ops.h:283:11:[m[K [01;31m[Kerror: [m[Kno match for call to ‘[01m[K(SimpleCluster::cluster(FeatureManager&, int)::<lambda(FeaturePerId*)>) (std::pair<FeaturePerId*, double>&)[m[K’
+  { return [01;31m[Kbool(_M_pred(*__it))[m[K; }
+           [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/predefined_ops.h:283:11:[m[K [01;36m[Knote: [m[Kcandidate: void (*)(FeaturePerId*) <conversion>
+[01m[K/usr/include/c++/7/bits/predefined_ops.h:283:11:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 2 provided
+In file included from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/../estimator.h:25:0[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/visualization.h:3[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/visualization.cpp:1[m[K:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/../dynenv/cluster.h:68:44:[m[K [01;36m[Knote: [m[Kcandidate: SimpleCluster::cluster(FeatureManager&, int)::<lambda(FeaturePerId*)>
+                          [](FeaturePerId *i[01;36m[K)[m[K { i.second > 2.0 * averagedist; }),
+                                            [01;36m[K^[m[K
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/../dynenv/cluster.h:68:44:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::pair<FeaturePerId*, double>[m[K’ to ‘[01m[KFeaturePerId*[m[K’
+make[2]: *** [CMakeFiles/libutility.dir/src/utility/visualization.cpp.o] Error 1
+make[1]: *** [CMakeFiles/libutility.dir/all] Error 2
+make: *** [all] Error 2

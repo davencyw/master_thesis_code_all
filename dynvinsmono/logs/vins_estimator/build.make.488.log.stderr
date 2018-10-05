@@ -1,0 +1,11 @@
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:[m[K In member function ‘[01m[Kvoid ClusterAlgorithm::moveCluster(std::deque<std::vector<Cluster> >&)[m[K’:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:84:74:[m[K [01;31m[Kerror: [m[Kleft operand of comma operator cannot resolve address of overloaded function
+       cv::Point2f cluster_i_center((cluster_i.center.x, cluster_i_center.y;
+[01;32m[K                                                                          ^[m[K
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:84:75:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+       cv::Point2f cluster_i_center((cluster_i.center.x, cluster_i_center.y;
+[01;32m[K                                                                           ^[m[K
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:84:75:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+make[2]: *** [CMakeFiles/libdynenv.dir/src/dynenv/cluster.cc.o] Error 1
+make[1]: *** [CMakeFiles/libdynenv.dir/all] Error 2
+make: *** [all] Error 2

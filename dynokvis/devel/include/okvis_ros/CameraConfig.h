@@ -1,0 +1,1 @@
+/home/davencyw/catkinws/dynokvis/devel/.private/okvis_ros/include/okvis_ros/CameraConfig.h

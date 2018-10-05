@@ -1,0 +1,21 @@
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:[m[K In member function ‘[01m[Kvoid DbscanCluster::dbscan(const std::vector<std::pair<FeaturePerId*, double> >&, double, unsigned int)[m[K’:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:245:49:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
+       std::vector<int> neighbours = regionQuery(i);
+[01;32m[K                                                 ^[m[K
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:[m[K In member function ‘[01m[Kvoid DbscanCluster::expandCluster(int, const std::vector<int>&, int)[m[K’:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:261:3:[m[K [01;31m[Kerror: [m[K‘[01m[Klabels[m[K’ was not declared in this scope
+   labels[feature_i] = clustercount;
+[01;32m[K   ^[m[K
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:263:31:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
+     if (!isVisited(neighbours[i])) {
+[01;32m[K                               ^[m[K
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:263:33:[m[K [01;31m[Kerror: [m[K‘[01m[KisVisited[m[K’ was not declared in this scope
+     if (!isVisited(neighbours[i])) {
+[01;32m[K                                 ^[m[K
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:266:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kmnpts[m[K’ was not declared in this scope
+       if (neighbours_p.size() >= mnpts) {
+[01;32m[K                                  ^[m[K
+make[2]: *** [CMakeFiles/libdynenv.dir/src/dynenv/cluster.cc.o] Error 1
+make[1]: *** [CMakeFiles/libdynenv.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [all] Error 2

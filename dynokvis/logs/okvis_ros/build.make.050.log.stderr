@@ -1,0 +1,24 @@
+In file included from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/Estimator.hpp:64:0[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/src/Estimator.cpp:42[m[K:
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/dynenv/pointclassifier.hpp:[m[K In member function ‘[01m[Kvoid okvis::ceres::dynenv::Pointclassifier::updateReprojectErrorMax(double)[m[K’:
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/dynenv/pointclassifier.hpp:45:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kreproject_error_max_[m[K’ was not declared in this scope
+       reproject_error_max_ =
+[01;32m[K       ^[m[K
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/src/Estimator.cpp:[m[K In member function ‘[01m[Kvoid okvis::Estimator::updateWeights()[m[K’:
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/src/Estimator.cpp:1312:19:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kready[m[K’ in ‘[01m[K((okvis::Estimator*)this)->okvis::Estimator::classifier_[m[K’, which is of pointer type ‘[01m[Kokvis::ceres::dynenv::Pointclassifier*[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+   if(!classifier_.ready()){
+[01;32m[K                   ^[m[K
+In file included from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/Estimator.hpp:64:0[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/src/Estimator.cpp:42[m[K:
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/dynenv/pointclassifier.hpp:30:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid okvis::ceres::dynenv::Pointclassifier::updateReprojectErrorMax(double)[m[K’ is protected
+   void updateReprojectErrorMax(const double reproject_error_max){
+[01;32m[K        ^[m[K
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/src/Estimator.cpp:1313:62:[m[K [01;31m[Kerror: [m[Kwithin this context
+     classifier_->updateReprojectErrorMax(reprojectionerrormax);
+[01;32m[K                                                              ^[m[K
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/src/Estimator.cpp:1315:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kclassifier[m[K’ was not declared in this scope
+     classifier->classify();
+[01;32m[K     ^[m[K
+make[2]: *** [okvis/okvis_ceres/CMakeFiles/okvis_ceres.dir/src/Estimator.cpp.o] Error 1
+make[1]: *** [okvis/okvis_ceres/CMakeFiles/okvis_ceres.dir/all] Error 2
+make: *** [all] Error 2

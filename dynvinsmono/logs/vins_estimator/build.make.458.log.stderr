@@ -1,0 +1,7 @@
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:4:57:[m[K [01;31m[Kerror: [m[Kno ‘[01m[Kvoid SimpleCluster::cluster(FeatureManager&, int, std::deque<Cluster>&)[m[K’ member function declared in class ‘[01m[KSimpleCluster[m[K’
+                             std::deque<Cluster> &cluster) {
+[01;32m[K                                                         ^[m[K
+make[2]: *** [CMakeFiles/libdynenv.dir/src/dynenv/cluster.cc.o] Error 1
+make[1]: *** [CMakeFiles/libdynenv.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [all] Error 2

@@ -1,0 +1,13 @@
+# Target labels
+ brisk_external
+# Source files and their labels
+/home/davencyw/catkinws/dynokvis/build/okvis_ros/okvis/CMakeFiles/brisk_external
+/home/davencyw/catkinws/dynokvis/build/okvis_ros/okvis/CMakeFiles/brisk_external.rule
+/home/davencyw/catkinws/dynokvis/build/okvis_ros/okvis/CMakeFiles/brisk_external-complete.rule
+/home/davencyw/catkinws/dynokvis/build/okvis_ros/okvis/brisk/src/brisk_external-stamp/brisk_external-install.rule
+/home/davencyw/catkinws/dynokvis/build/okvis_ros/okvis/brisk/src/brisk_external-stamp/brisk_external-mkdir.rule
+/home/davencyw/catkinws/dynokvis/build/okvis_ros/okvis/brisk/src/brisk_external-stamp/brisk_external-download.rule
+/home/davencyw/catkinws/dynokvis/build/okvis_ros/okvis/brisk/src/brisk_external-stamp/brisk_external-update.rule
+/home/davencyw/catkinws/dynokvis/build/okvis_ros/okvis/brisk/src/brisk_external-stamp/brisk_external-patch.rule
+/home/davencyw/catkinws/dynokvis/build/okvis_ros/okvis/brisk/src/brisk_external-stamp/brisk_external-configure.rule
+/home/davencyw/catkinws/dynokvis/build/okvis_ros/okvis/brisk/src/brisk_external-stamp/brisk_external-build.rule

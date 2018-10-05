@@ -1,0 +1,14 @@
+In file included from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/src/pointclassifier.cpp:1:0[m[K:
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/dynenv/pointclassifier.hpp:43:30:[m[K [01;31m[Kerror: [m[Kconstructors cannot be declared virtual [-fpermissive]
+   virtual Pointclassifier() =default;
+[01;32m[K                              ^[m[K
+make[2]: *** [okvis/okvis_ceres/CMakeFiles/okvis_ceres.dir/src/pointclassifier.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/Estimator.hpp:66:0[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/src/Estimator.cpp:42[m[K:
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/dynenv/pointclassifier.hpp:43:30:[m[K [01;31m[Kerror: [m[Kconstructors cannot be declared virtual [-fpermissive]
+   virtual Pointclassifier() =default;
+[01;32m[K                              ^[m[K
+make[2]: *** [okvis/okvis_ceres/CMakeFiles/okvis_ceres.dir/src/Estimator.cpp.o] Error 1
+make[1]: *** [okvis/okvis_ceres/CMakeFiles/okvis_ceres.dir/all] Error 2
+make: *** [all] Error 2

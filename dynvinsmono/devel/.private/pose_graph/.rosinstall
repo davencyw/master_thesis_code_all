@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/davencyw/catkinws/dynvinsmono/devel/.private/pose_graph/setup.sh

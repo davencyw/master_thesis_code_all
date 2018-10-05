@@ -1,0 +1,154 @@
+/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_frontend/src/ProbabilisticStereoTriangulator.cpp: In instantiation of ‘[01m[Kvoid okvis::triangulation::ProbabilisticStereoTriangulator<CAMERA_GEOMETRY_T>::getUncertainty(std::size_t, std::size_t, const Vector4d&, Eigen::Matrix3d&, bool&) const [with CAMERA_GEOMETRY_T = okvis::cameras::PinholeCamera<okvis::cameras::EquidistantDistortion>; std::size_t = long unsigned int; Eigen::Vector4d = Eigen::Matrix<double, 4, 1>; Eigen::Matrix3d = Eigen::Matrix<double, 3, 3>][m[K’:
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_frontend/src/ProbabilisticStereoTriangulator.cpp:386:16:[m[K   required from here
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_frontend/src/ProbabilisticStereoTriangulator.cpp:281:35:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kokvis::ceres::ReprojectionError<okvis::cameras::PinholeCamera<okvis::cameras::EquidistantDistortion> >::ReprojectionError(std::shared_ptr<const okvis::cameras::PinholeCamera<okvis::cameras::EquidistantDistortion> >, int, Eigen::Vector2d&, Eigen::Matrix2d&)[m[K’
+       inverseMeasurementCovariance);
+[01;32m[K                                   ^[m[K
+In file included from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/ceres/ReprojectionError.hpp:207:0[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_frontend/src/ProbabilisticStereoTriangulator.cpp:43[m[K:
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/ceres/implementation/ReprojectionError.hpp:55:1:[m[K [01;36m[Knote: [m[Kcandidate: okvis::ceres::ReprojectionError<GEOMETRY_TYPE>::ReprojectionError(std::shared_ptr<const _Tp>, uint64_t, const measurement_t&, const covariance_t&, double, double*) [with GEOMETRY_TYPE = okvis::cameras::PinholeCamera<okvis::cameras::EquidistantDistortion>; uint64_t = long unsigned int; okvis::ceres::ReprojectionError2dBase::measurement_t = Eigen::Matrix<double, 2, 1>; okvis::ceres::ReprojectionError2dBase::covariance_t = Eigen::Matrix<double, 2, 2>]
+ ReprojectionError<GEOMETRY_T>::ReprojectionError(
+[01;32m[K ^[m[K
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/ceres/implementation/ReprojectionError.hpp:55:1:[m[K [01;36m[Knote: [m[K  candidate expects 6 arguments, 4 provided
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/ceres/implementation/ReprojectionError.hpp:49:1:[m[K [01;36m[Knote: [m[Kcandidate: okvis::ceres::ReprojectionError<GEOMETRY_TYPE>::ReprojectionError() [with GEOMETRY_TYPE = okvis::cameras::PinholeCamera<okvis::cameras::EquidistantDistortion>]
+ ReprojectionError<GEOMETRY_T>::ReprojectionError()
+[01;32m[K ^[m[K
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/ceres/implementation/ReprojectionError.hpp:49:1:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 4 provided
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_frontend/src/ProbabilisticStereoTriangulator.cpp:309:35:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kokvis::ceres::ReprojectionError<okvis::cameras::PinholeCamera<okvis::cameras::EquidistantDistortion> >::ReprojectionError(std::shared_ptr<const okvis::cameras::PinholeCamera<okvis::cameras::EquidistantDistortion> >, int, Eigen::Vector2d&, Eigen::Matrix2d&)[m[K’
+       inverseMeasurementCovariance);
+[01;32m[K                                   ^[m[K
+In file included from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/ceres/ReprojectionError.hpp:207:0[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_frontend/src/ProbabilisticStereoTriangulator.cpp:43[m[K:
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/ceres/implementation/ReprojectionError.hpp:55:1:[m[K [01;36m[Knote: [m[Kcandidate: okvis::ceres::ReprojectionError<GEOMETRY_TYPE>::ReprojectionError(std::shared_ptr<const _Tp>, uint64_t, const measurement_t&, const covariance_t&, double, double*) [with GEOMETRY_TYPE = okvis::cameras::PinholeCamera<okvis::cameras::EquidistantDistortion>; uint64_t = long unsigned int; okvis::ceres::ReprojectionError2dBase::measurement_t = Eigen::Matrix<double, 2, 1>; okvis::ceres::ReprojectionError2dBase::covariance_t = Eigen::Matrix<double, 2, 2>]
+ ReprojectionError<GEOMETRY_T>::ReprojectionError(
+[01;32m[K ^[m[K
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/ceres/implementation/ReprojectionError.hpp:55:1:[m[K [01;36m[Knote: [m[K  candidate expects 6 arguments, 4 provided
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/ceres/implementation/ReprojectionError.hpp:49:1:[m[K [01;36m[Knote: [m[Kcandidate: okvis::ceres::ReprojectionError<GEOMETRY_TYPE>::ReprojectionError() [with GEOMETRY_TYPE = okvis::cameras::PinholeCamera<okvis::cameras::EquidistantDistortion>]
+ ReprojectionError<GEOMETRY_T>::ReprojectionError()
+[01;32m[K ^[m[K
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/ceres/implementation/ReprojectionError.hpp:49:1:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 4 provided
+/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_frontend/src/ProbabilisticStereoTriangulator.cpp: In instantiation of ‘[01m[Kvoid okvis::triangulation::ProbabilisticStereoTriangulator<CAMERA_GEOMETRY_T>::getUncertainty(std::size_t, std::size_t, const Vector4d&, Eigen::Matrix3d&, bool&) const [with CAMERA_GEOMETRY_T = okvis::cameras::PinholeCamera<okvis::cameras::RadialTangentialDistortion>; std::size_t = long unsigned int; Eigen::Vector4d = Eigen::Matrix<double, 4, 1>; Eigen::Matrix3d = Eigen::Matrix<double, 3, 3>][m[K’:
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_frontend/src/ProbabilisticStereoTriangulator.cpp:388:16:[m[K   required from here
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_frontend/src/ProbabilisticStereoTriangulator.cpp:281:35:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kokvis::ceres::ReprojectionError<okvis::cameras::PinholeCamera<okvis::cameras::RadialTangentialDistortion> >::ReprojectionError(std::shared_ptr<const okvis::cameras::PinholeCamera<okvis::cameras::RadialTangentialDistortion> >, int, Eigen::Vector2d&, Eigen::Matrix2d&)[m[K’
+       inverseMeasurementCovariance);
+[01;32m[K                                   ^[m[K
+In file included from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/ceres/ReprojectionError.hpp:207:0[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_frontend/src/ProbabilisticStereoTriangulator.cpp:43[m[K:
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/ceres/implementation/ReprojectionError.hpp:55:1:[m[K [01;36m[Knote: [m[Kcandidate: okvis::ceres::ReprojectionError<GEOMETRY_TYPE>::ReprojectionError(std::shared_ptr<const _Tp>, uint64_t, const measurement_t&, const covariance_t&, double, double*) [with GEOMETRY_TYPE = okvis::cameras::PinholeCamera<okvis::cameras::RadialTangentialDistortion>; uint64_t = long unsigned int; okvis::ceres::ReprojectionError2dBase::measurement_t = Eigen::Matrix<double, 2, 1>; okvis::ceres::ReprojectionError2dBase::covariance_t = Eigen::Matrix<double, 2, 2>]
+ ReprojectionError<GEOMETRY_T>::ReprojectionError(
+[01;32m[K ^[m[K
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/ceres/implementation/ReprojectionError.hpp:55:1:[m[K [01;36m[Knote: [m[K  candidate expects 6 arguments, 4 provided
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/ceres/implementation/ReprojectionError.hpp:49:1:[m[K [01;36m[Knote: [m[Kcandidate: okvis::ceres::ReprojectionError<GEOMETRY_TYPE>::ReprojectionError() [with GEOMETRY_TYPE = okvis::cameras::PinholeCamera<okvis::cameras::RadialTangentialDistortion>]
+ ReprojectionError<GEOMETRY_T>::ReprojectionError()
+[01;32m[K ^[m[K
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/ceres/implementation/ReprojectionError.hpp:49:1:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 4 provided
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_frontend/src/ProbabilisticStereoTriangulator.cpp:309:35:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kokvis::ceres::ReprojectionError<okvis::cameras::PinholeCamera<okvis::cameras::RadialTangentialDistortion> >::ReprojectionError(std::shared_ptr<const okvis::cameras::PinholeCamera<okvis::cameras::RadialTangentialDistortion> >, int, Eigen::Vector2d&, Eigen::Matrix2d&)[m[K’
+       inverseMeasurementCovariance);
+[01;32m[K                                   ^[m[K
+In file included from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/ceres/ReprojectionError.hpp:207:0[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_frontend/src/ProbabilisticStereoTriangulator.cpp:43[m[K:
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/ceres/implementation/ReprojectionError.hpp:55:1:[m[K [01;36m[Knote: [m[Kcandidate: okvis::ceres::ReprojectionError<GEOMETRY_TYPE>::ReprojectionError(std::shared_ptr<const _Tp>, uint64_t, const measurement_t&, const covariance_t&, double, double*) [with GEOMETRY_TYPE = okvis::cameras::PinholeCamera<okvis::cameras::RadialTangentialDistortion>; uint64_t = long unsigned int; okvis::ceres::ReprojectionError2dBase::measurement_t = Eigen::Matrix<double, 2, 1>; okvis::ceres::ReprojectionError2dBase::covariance_t = Eigen::Matrix<double, 2, 2>]
+ ReprojectionError<GEOMETRY_T>::ReprojectionError(
+[01;32m[K ^[m[K
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/ceres/implementation/ReprojectionError.hpp:55:1:[m[K [01;36m[Knote: [m[K  candidate expects 6 arguments, 4 provided
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/ceres/implementation/ReprojectionError.hpp:49:1:[m[K [01;36m[Knote: [m[Kcandidate: okvis::ceres::ReprojectionError<GEOMETRY_TYPE>::ReprojectionError() [with GEOMETRY_TYPE = okvis::cameras::PinholeCamera<okvis::cameras::RadialTangentialDistortion>]
+ ReprojectionError<GEOMETRY_T>::ReprojectionError()
+[01;32m[K ^[m[K
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/ceres/implementation/ReprojectionError.hpp:49:1:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 4 provided
+/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_frontend/src/ProbabilisticStereoTriangulator.cpp: In instantiation of ‘[01m[Kvoid okvis::triangulation::ProbabilisticStereoTriangulator<CAMERA_GEOMETRY_T>::getUncertainty(std::size_t, std::size_t, const Vector4d&, Eigen::Matrix3d&, bool&) const [with CAMERA_GEOMETRY_T = okvis::cameras::PinholeCamera<okvis::cameras::RadialTangentialDistortion8>; std::size_t = long unsigned int; Eigen::Vector4d = Eigen::Matrix<double, 4, 1>; Eigen::Matrix3d = Eigen::Matrix<double, 3, 3>][m[K’:
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_frontend/src/ProbabilisticStereoTriangulator.cpp:390:16:[m[K   required from here
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_frontend/src/ProbabilisticStereoTriangulator.cpp:281:35:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kokvis::ceres::ReprojectionError<okvis::cameras::PinholeCamera<okvis::cameras::RadialTangentialDistortion8> >::ReprojectionError(std::shared_ptr<const okvis::cameras::PinholeCamera<okvis::cameras::RadialTangentialDistortion8> >, int, Eigen::Vector2d&, Eigen::Matrix2d&)[m[K’
+       inverseMeasurementCovariance);
+[01;32m[K                                   ^[m[K
+In file included from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/ceres/ReprojectionError.hpp:207:0[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_frontend/src/ProbabilisticStereoTriangulator.cpp:43[m[K:
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/ceres/implementation/ReprojectionError.hpp:55:1:[m[K [01;36m[Knote: [m[Kcandidate: okvis::ceres::ReprojectionError<GEOMETRY_TYPE>::ReprojectionError(std::shared_ptr<const _Tp>, uint64_t, const measurement_t&, const covariance_t&, double, double*) [with GEOMETRY_TYPE = okvis::cameras::PinholeCamera<okvis::cameras::RadialTangentialDistortion8>; uint64_t = long unsigned int; okvis::ceres::ReprojectionError2dBase::measurement_t = Eigen::Matrix<double, 2, 1>; okvis::ceres::ReprojectionError2dBase::covariance_t = Eigen::Matrix<double, 2, 2>]
+ ReprojectionError<GEOMETRY_T>::ReprojectionError(
+[01;32m[K ^[m[K
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/ceres/implementation/ReprojectionError.hpp:55:1:[m[K [01;36m[Knote: [m[K  candidate expects 6 arguments, 4 provided
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/ceres/implementation/ReprojectionError.hpp:49:1:[m[K [01;36m[Knote: [m[Kcandidate: okvis::ceres::ReprojectionError<GEOMETRY_TYPE>::ReprojectionError() [with GEOMETRY_TYPE = okvis::cameras::PinholeCamera<okvis::cameras::RadialTangentialDistortion8>]
+ ReprojectionError<GEOMETRY_T>::ReprojectionError()
+[01;32m[K ^[m[K
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/ceres/implementation/ReprojectionError.hpp:49:1:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 4 provided
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_frontend/src/ProbabilisticStereoTriangulator.cpp:309:35:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kokvis::ceres::ReprojectionError<okvis::cameras::PinholeCamera<okvis::cameras::RadialTangentialDistortion8> >::ReprojectionError(std::shared_ptr<const okvis::cameras::PinholeCamera<okvis::cameras::RadialTangentialDistortion8> >, int, Eigen::Vector2d&, Eigen::Matrix2d&)[m[K’
+       inverseMeasurementCovariance);
+[01;32m[K                                   ^[m[K
+In file included from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/ceres/ReprojectionError.hpp:207:0[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_frontend/src/ProbabilisticStereoTriangulator.cpp:43[m[K:
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/ceres/implementation/ReprojectionError.hpp:55:1:[m[K [01;36m[Knote: [m[Kcandidate: okvis::ceres::ReprojectionError<GEOMETRY_TYPE>::ReprojectionError(std::shared_ptr<const _Tp>, uint64_t, const measurement_t&, const covariance_t&, double, double*) [with GEOMETRY_TYPE = okvis::cameras::PinholeCamera<okvis::cameras::RadialTangentialDistortion8>; uint64_t = long unsigned int; okvis::ceres::ReprojectionError2dBase::measurement_t = Eigen::Matrix<double, 2, 1>; okvis::ceres::ReprojectionError2dBase::covariance_t = Eigen::Matrix<double, 2, 2>]
+ ReprojectionError<GEOMETRY_T>::ReprojectionError(
+[01;32m[K ^[m[K
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/ceres/implementation/ReprojectionError.hpp:55:1:[m[K [01;36m[Knote: [m[K  candidate expects 6 arguments, 4 provided
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/ceres/implementation/ReprojectionError.hpp:49:1:[m[K [01;36m[Knote: [m[Kcandidate: okvis::ceres::ReprojectionError<GEOMETRY_TYPE>::ReprojectionError() [with GEOMETRY_TYPE = okvis::cameras::PinholeCamera<okvis::cameras::RadialTangentialDistortion8>]
+ ReprojectionError<GEOMETRY_T>::ReprojectionError()
+[01;32m[K ^[m[K
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/ceres/implementation/ReprojectionError.hpp:49:1:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 4 provided
+In file included from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_common/include/okvis/VioBackendInterface.hpp:61:0[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/Estimator.hpp:52[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_frontend/include/okvis/VioKeyframeWindowMatchingAlgorithm.hpp:48[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_frontend/src/VioKeyframeWindowMatchingAlgorithm.cpp:41[m[K:
+/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/ceres/implementation/ReprojectionError.hpp: In instantiation of ‘[01m[Kokvis::ceres::ReprojectionError<GEOMETRY_TYPE>::ReprojectionError(std::shared_ptr<const _Tp>, uint64_t, const measurement_t&, const covariance_t&, double, double*) [with GEOMETRY_TYPE = okvis::cameras::PinholeCamera<okvis::cameras::RadialTangentialDistortion>; uint64_t = long unsigned int; okvis::ceres::ReprojectionError2dBase::measurement_t = Eigen::Matrix<double, 2, 1>; okvis::ceres::ReprojectionError2dBase::covariance_t = Eigen::Matrix<double, 2, 2>][m[K’:
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/implementation/Estimator.hpp:73:66:[m[K   required from ‘[01m[Kceres::internal::ResidualBlock* okvis::Estimator::addObservation(uint64_t, uint64_t, std::size_t, std::size_t) [with GEOMETRY_TYPE = okvis::cameras::PinholeCamera<okvis::cameras::RadialTangentialDistortion>; ceres::ResidualBlockId = ceres::internal::ResidualBlock*; uint64_t = long unsigned int; std::size_t = long unsigned int][m[K’
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_frontend/src/VioKeyframeWindowMatchingAlgorithm.cpp:457:7:[m[K   required from ‘[01m[Kvoid okvis::VioKeyframeWindowMatchingAlgorithm<CAMERA_GEOMETRY_T>::setBestMatch(std::size_t, std::size_t, double) [with CAMERA_GEOMETRY_T = okvis::cameras::PinholeCamera<okvis::cameras::RadialTangentialDistortion>; std::size_t = long unsigned int][m[K’
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_frontend/src/VioKeyframeWindowMatchingAlgorithm.cpp:529:16:[m[K   required from here
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/ceres/ReprojectionError.hpp:200:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Kokvis::ceres::ReprojectionError<okvis::cameras::PinholeCamera<okvis::cameras::RadialTangentialDistortion> >::weight_[m[K’ will be initialized after [-Wreorder]
+   double weight_;
+[01;32m[K          ^[m[K
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/ceres/ReprojectionError.hpp:199:11:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kdouble* okvis::ceres::ReprojectionError<okvis::cameras::PinholeCamera<okvis::cameras::RadialTangentialDistortion> >::residual_[m[K’ [-Wreorder]
+   double* residual_;
+[01;32m[K           ^[m[K
+In file included from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/ceres/ReprojectionError.hpp:207:0[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_common/include/okvis/VioBackendInterface.hpp:61[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/Estimator.hpp:52[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_frontend/include/okvis/VioKeyframeWindowMatchingAlgorithm.hpp:48[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_frontend/src/VioKeyframeWindowMatchingAlgorithm.cpp:41[m[K:
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/ceres/implementation/ReprojectionError.hpp:55:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [-Wreorder]
+ ReprojectionError<GEOMETRY_T>::ReprojectionError(
+[01;32m[K ^[m[K
+In file included from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_common/include/okvis/VioBackendInterface.hpp:61:0[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/Estimator.hpp:52[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_frontend/include/okvis/VioKeyframeWindowMatchingAlgorithm.hpp:48[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_frontend/src/VioKeyframeWindowMatchingAlgorithm.cpp:41[m[K:
+/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/ceres/implementation/ReprojectionError.hpp: In instantiation of ‘[01m[Kokvis::ceres::ReprojectionError<GEOMETRY_TYPE>::ReprojectionError(std::shared_ptr<const _Tp>, uint64_t, const measurement_t&, const covariance_t&, double, double*) [with GEOMETRY_TYPE = okvis::cameras::PinholeCamera<okvis::cameras::EquidistantDistortion>; uint64_t = long unsigned int; okvis::ceres::ReprojectionError2dBase::measurement_t = Eigen::Matrix<double, 2, 1>; okvis::ceres::ReprojectionError2dBase::covariance_t = Eigen::Matrix<double, 2, 2>][m[K’:
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/implementation/Estimator.hpp:73:66:[m[K   required from ‘[01m[Kceres::internal::ResidualBlock* okvis::Estimator::addObservation(uint64_t, uint64_t, std::size_t, std::size_t) [with GEOMETRY_TYPE = okvis::cameras::PinholeCamera<okvis::cameras::EquidistantDistortion>; ceres::ResidualBlockId = ceres::internal::ResidualBlock*; uint64_t = long unsigned int; std::size_t = long unsigned int][m[K’
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_frontend/src/VioKeyframeWindowMatchingAlgorithm.cpp:457:7:[m[K   required from ‘[01m[Kvoid okvis::VioKeyframeWindowMatchingAlgorithm<CAMERA_GEOMETRY_T>::setBestMatch(std::size_t, std::size_t, double) [with CAMERA_GEOMETRY_T = okvis::cameras::PinholeCamera<okvis::cameras::EquidistantDistortion>; std::size_t = long unsigned int][m[K’
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_frontend/src/VioKeyframeWindowMatchingAlgorithm.cpp:532:16:[m[K   required from here
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/ceres/ReprojectionError.hpp:200:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Kokvis::ceres::ReprojectionError<okvis::cameras::PinholeCamera<okvis::cameras::EquidistantDistortion> >::weight_[m[K’ will be initialized after [-Wreorder]
+   double weight_;
+[01;32m[K          ^[m[K
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/ceres/ReprojectionError.hpp:199:11:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kdouble* okvis::ceres::ReprojectionError<okvis::cameras::PinholeCamera<okvis::cameras::EquidistantDistortion> >::residual_[m[K’ [-Wreorder]
+   double* residual_;
+[01;32m[K           ^[m[K
+In file included from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/ceres/ReprojectionError.hpp:207:0[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_common/include/okvis/VioBackendInterface.hpp:61[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/Estimator.hpp:52[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_frontend/include/okvis/VioKeyframeWindowMatchingAlgorithm.hpp:48[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_frontend/src/VioKeyframeWindowMatchingAlgorithm.cpp:41[m[K:
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/ceres/implementation/ReprojectionError.hpp:55:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [-Wreorder]
+ ReprojectionError<GEOMETRY_T>::ReprojectionError(
+[01;32m[K ^[m[K
+In file included from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_common/include/okvis/VioBackendInterface.hpp:61:0[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/Estimator.hpp:52[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_frontend/include/okvis/VioKeyframeWindowMatchingAlgorithm.hpp:48[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_frontend/src/VioKeyframeWindowMatchingAlgorithm.cpp:41[m[K:
+/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/ceres/implementation/ReprojectionError.hpp: In instantiation of ‘[01m[Kokvis::ceres::ReprojectionError<GEOMETRY_TYPE>::ReprojectionError(std::shared_ptr<const _Tp>, uint64_t, const measurement_t&, const covariance_t&, double, double*) [with GEOMETRY_TYPE = okvis::cameras::PinholeCamera<okvis::cameras::RadialTangentialDistortion8>; uint64_t = long unsigned int; okvis::ceres::ReprojectionError2dBase::measurement_t = Eigen::Matrix<double, 2, 1>; okvis::ceres::ReprojectionError2dBase::covariance_t = Eigen::Matrix<double, 2, 2>][m[K’:
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/implementation/Estimator.hpp:73:66:[m[K   required from ‘[01m[Kceres::internal::ResidualBlock* okvis::Estimator::addObservation(uint64_t, uint64_t, std::size_t, std::size_t) [with GEOMETRY_TYPE = okvis::cameras::PinholeCamera<okvis::cameras::RadialTangentialDistortion8>; ceres::ResidualBlockId = ceres::internal::ResidualBlock*; uint64_t = long unsigned int; std::size_t = long unsigned int][m[K’
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_frontend/src/VioKeyframeWindowMatchingAlgorithm.cpp:457:7:[m[K   required from ‘[01m[Kvoid okvis::VioKeyframeWindowMatchingAlgorithm<CAMERA_GEOMETRY_T>::setBestMatch(std::size_t, std::size_t, double) [with CAMERA_GEOMETRY_T = okvis::cameras::PinholeCamera<okvis::cameras::RadialTangentialDistortion8>; std::size_t = long unsigned int][m[K’
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_frontend/src/VioKeyframeWindowMatchingAlgorithm.cpp:535:16:[m[K   required from here
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/ceres/ReprojectionError.hpp:200:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Kokvis::ceres::ReprojectionError<okvis::cameras::PinholeCamera<okvis::cameras::RadialTangentialDistortion8> >::weight_[m[K’ will be initialized after [-Wreorder]
+   double weight_;
+[01;32m[K          ^[m[K
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/ceres/ReprojectionError.hpp:199:11:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kdouble* okvis::ceres::ReprojectionError<okvis::cameras::PinholeCamera<okvis::cameras::RadialTangentialDistortion8> >::residual_[m[K’ [-Wreorder]
+   double* residual_;
+[01;32m[K           ^[m[K
+In file included from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/ceres/ReprojectionError.hpp:207:0[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_common/include/okvis/VioBackendInterface.hpp:61[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/Estimator.hpp:52[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_frontend/include/okvis/VioKeyframeWindowMatchingAlgorithm.hpp:48[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_frontend/src/VioKeyframeWindowMatchingAlgorithm.cpp:41[m[K:
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/ceres/implementation/ReprojectionError.hpp:55:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [-Wreorder]
+ ReprojectionError<GEOMETRY_T>::ReprojectionError(
+[01;32m[K ^[m[K
+make[2]: *** [okvis/okvis_frontend/CMakeFiles/okvis_frontend.dir/src/ProbabilisticStereoTriangulator.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [okvis/okvis_frontend/CMakeFiles/okvis_frontend.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,26 @@
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_multisensor_processing/src/VioVisualizer.cpp:[m[K In member function ‘[01m[Kcv::Mat okvis::VioVisualizer::drawKeypoints(okvis::VioVisualizer::VisualizationData::Ptr&, std::size_t)[m[K’:
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_multisensor_processing/src/VioVisualizer.cpp:231:44:[m[K [01;31m[Kerror: [m[K‘[01m[KFONT_HERSHEY_PLAIN[m[K’ was not declared in this scope
+     cv::putText(outimg,weight,keypoint.pt, FONT_HERSHEY_PLAIN, 2,  Scalar(0,0,255,255))
+[01;32m[K                                            ^[m[K
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_multisensor_processing/src/VioVisualizer.cpp:231:44:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+In file included from [01m[K/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/core.hpp:48:0[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_cv/include/okvis/cameras/NCameraSystem.hpp:47[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_multisensor_processing/src/VioVisualizer.cpp:46[m[K:
+[01m[K/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core.hpp:226:5:[m[K [01;36m[Knote: [m[K  ‘[01m[KFONT_HERSHEY_PLAIN[m[K’
+     FONT_HERSHEY_PLAIN          = 1, //!< small size sans-serif font
+[01;32m[K     ^[m[K
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_multisensor_processing/src/VioVisualizer.cpp:231:86:[m[K [01;31m[Kerror: [m[K‘[01m[KScalar[m[K’ was not declared in this scope
+     cv::putText(outimg,weight,keypoint.pt, FONT_HERSHEY_PLAIN, 2,  Scalar(0,0,255,255))
+[01;32m[K                                                                                      ^[m[K
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_multisensor_processing/src/VioVisualizer.cpp:231:86:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+In file included from [01m[K/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core.hpp:58:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/core.hpp:48[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_cv/include/okvis/cameras/NCameraSystem.hpp:47[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_multisensor_processing/src/VioVisualizer.cpp:46[m[K:
+[01m[K/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/types.hpp:664:25:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcv::Scalar[m[K’
+ typedef Scalar_<double> Scalar;
+[01;32m[K                         ^[m[K
+make[2]: *** [okvis/okvis_multisensor_processing/CMakeFiles/okvis_multisensor_processing.dir/src/VioVisualizer.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [okvis/okvis_multisensor_processing/CMakeFiles/okvis_multisensor_processing.dir/all] Error 2
+make: *** [all] Error 2

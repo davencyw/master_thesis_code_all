@@ -1,0 +1,22 @@
+In file included from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:1:0[m[K:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.h:14:21:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[K0[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[KEigen::Vector2d {aka Eigen::Matrix<double, 2, 1>}[m[K’
+   Vector2d center = 0;
+[01;32m[K                     ^[m[K
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.h:16:33:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[K0[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[KEigen::Vector2d {aka Eigen::Matrix<double, 2, 1>}[m[K’
+   Vector2d averageopticalflow = 0;
+[01;32m[K                                 ^[m[K
+make[2]: *** [CMakeFiles/libdynenv.dir/src/dynenv/cluster.cc.o] Error 1
+make[1]: *** [CMakeFiles/libdynenv.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/../estimator.h:25:0[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/visualization.h:3[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/visualization.cpp:1[m[K:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/../dynenv/cluster.h:14:21:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[K0[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[KEigen::Vector2d {aka Eigen::Matrix<double, 2, 1>}[m[K’
+   Vector2d center = 0;
+[01;32m[K                     ^[m[K
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/../dynenv/cluster.h:16:33:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[K0[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[KEigen::Vector2d {aka Eigen::Matrix<double, 2, 1>}[m[K’
+   Vector2d averageopticalflow = 0;
+[01;32m[K                                 ^[m[K
+make[2]: *** [CMakeFiles/libutility.dir/src/utility/visualization.cpp.o] Error 1
+make[1]: *** [CMakeFiles/libutility.dir/all] Error 2
+make: *** [all] Error 2

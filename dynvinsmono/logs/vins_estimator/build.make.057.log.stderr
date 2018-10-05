@@ -1,0 +1,7 @@
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/visualization.cpp:[m[K In function ‘[01m[Kvoid pubImageFeatureClassification(const Estimator&, const Header&)[m[K’:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/visualization.cpp:424:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kcv_bridge::CvImagePtr {aka class boost::shared_ptr<cv_bridge::CvImage>}[m[K’ has no member named ‘[01m[KtoImageMsg[m[K’
+   pub_image_feature_classification.publish(img.[01;31m[KtoImageMsg[m[K());
+                                                [01;31m[K^~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/libutility.dir/src/utility/visualization.cpp.o] Error 1
+make[1]: *** [CMakeFiles/libutility.dir/all] Error 2
+make: *** [all] Error 2

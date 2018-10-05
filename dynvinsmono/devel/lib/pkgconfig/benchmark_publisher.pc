@@ -1,0 +1,1 @@
+/home/davencyw/catkinws/dynvinsmono/devel/.private/benchmark_publisher/lib/pkgconfig/benchmark_publisher.pc

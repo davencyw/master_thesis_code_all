@@ -1,0 +1,20 @@
+In file included from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/Estimator.hpp:64:0[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/src/Estimator.cpp:42[m[K:
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/dynenv/pointclassifier.hpp:13:7:[m[K [01;31m[Kerror: [m[Kdeleted function ‘[01m[Kvirtual okvis::ceres::dynenv::Dep3::~Dep3()[m[K’
+ class Dep3 : public Pointclassifier{
+[01;32m[K       ^[m[K
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/dynenv/pointclassifier.hpp:9:11:[m[K [01;31m[Kerror: [m[Koverriding non-deleted function ‘[01m[Kvirtual okvis::ceres::dynenv::Pointclassifier::~Pointclassifier()[m[K’
+   virtual ~Pointclassifier() =default;
+[01;32m[K           ^[m[K
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/dynenv/pointclassifier.hpp:13:7:[m[K [01;36m[Knote: [m[K‘[01m[Kvirtual okvis::ceres::dynenv::Dep3::~Dep3()[m[K’ is implicitly deleted because the default definition would be ill-formed:
+ class Dep3 : public Pointclassifier{
+[01;32m[K       ^[m[K
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/dynenv/pointclassifier.hpp:9:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kvirtual okvis::ceres::dynenv::Pointclassifier::~Pointclassifier()[m[K’ is private
+   virtual ~Pointclassifier() =default;
+[01;32m[K           ^[m[K
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/dynenv/pointclassifier.hpp:13:7:[m[K [01;31m[Kerror: [m[Kwithin this context
+ class Dep3 : public Pointclassifier{
+[01;32m[K       ^[m[K
+make[2]: *** [okvis/okvis_ceres/CMakeFiles/okvis_ceres.dir/src/Estimator.cpp.o] Error 1
+make[1]: *** [okvis/okvis_ceres/CMakeFiles/okvis_ceres.dir/all] Error 2
+make: *** [all] Error 2

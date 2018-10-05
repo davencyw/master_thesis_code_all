@@ -1,0 +1,269 @@
+Cloning into 'ceres_external'...
+Cloning into 'opengv'...
+CMake Warning at CMakeLists.txt:73 (message):
+  Nonfree module disabled, demo application with limited functionality
+
+
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+Note: checking out '7c57de5080c9f5a4f067e2d20b5f33bad5b1ade6'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+HEAD is now at 451e71c... Prepare for version 1.9.0
+Note: checking out 'cc32b16281aa6eab67cb28a61cf87a2a5c2b0961'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+HEAD is now at cc32b16... Merge pull request #24 from simogasp/cmakeinstall
+-- Found Eigen version 3.2.92: /usr/include
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+-- Found LAPACK library: /usr/lib/liblapack.so;/usr/lib/libf77blas.so;/usr/lib/libatlas.so
+-- Found BLAS library: /usr/lib/libf77blas.so;/usr/lib/libatlas.so
+-- Found SuiteSparse 4.4.6, building with SuiteSparse.
+-- Failed to find CXSparse - Could not find CXSparse include directory, set CXSPARSE_INCLUDE_DIR to directory containing cs.h
+-- Did not find CXSparse, Building without CXSparse.
+-- Found Google Flags header in: /usr/include
+-- Found Google Log header in: /usr/include
+-- Building with OpenMP.
+-- Found unordered_map/set in std namespace.
+-- Found shared_ptr in std namespace using <memory> header.
+-- Building Ceres as a static library.
+-- Do not build any example.
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+make[3]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+make[3]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+make[3]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+/usr/bin/ld: warning: libboost_system.so.1.58.0, needed by /usr/local/lib/libvisensor.so, may conflict with libboost_system.so.1.67.0
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:156:43:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+ void writeCameraHeader(shared_ptr<ofstream> file)
+[01;32m[K                                           ^[m[K
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:156:43:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:156:43:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:156:43:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:156:43:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:156:24:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[KwriteCameraHeader[m[K’ declared void
+ void writeCameraHeader(shared_ptr<ofstream> file)
+[01;32m[K                        ^[m[K
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:156:43:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+ void writeCameraHeader(shared_ptr<ofstream> file)
+[01;32m[K                                           ^[m[K
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:161:40:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+ void writeImuHeader(shared_ptr<ofstream> file)
+[01;32m[K                                        ^[m[K
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:161:40:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:161:40:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:161:40:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:161:40:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:161:21:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[KwriteImuHeader[m[K’ declared void
+ void writeImuHeader(shared_ptr<ofstream> file)
+[01;32m[K                     ^[m[K
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:161:40:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+ void writeImuHeader(shared_ptr<ofstream> file)
+[01;32m[K                                        ^[m[K
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:168:42:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+ void writeViconHeader(shared_ptr<ofstream> file)
+[01;32m[K                                          ^[m[K
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:168:42:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:168:42:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:168:42:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:168:42:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:168:23:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[KwriteViconHeader[m[K’ declared void
+ void writeViconHeader(shared_ptr<ofstream> file)
+[01;32m[K                       ^[m[K
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:168:42:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+ void writeViconHeader(shared_ptr<ofstream> file)
+[01;32m[K                                          ^[m[K
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+ void writeCSVHeaders(map<string, shared_ptr<ofstream>> &files,
+[01;32m[K                                             ^[m[K
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+ void writeCSVHeaders(map<string, shared_ptr<ofstream>> &files,
+[01;32m[K                                                     ^[m[K
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:175:62:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+                      const map<string, map<string, string>> &sensor_info)
+[01;32m[K                                                              ^[m[K
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:175:62:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+ void writeCSVHeaders(map<string, shared_ptr<ofstream>> &files,
+[01;32m[K                                                     ^[m[K
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:175:62:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+                      const map<string, map<string, string>> &sensor_info)
+[01;32m[K                                                              ^[m[K
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:175:62:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+ void writeCSVHeaders(map<string, shared_ptr<ofstream>> &files,
+[01;32m[K                                                     ^[m[K
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:175:62:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+                      const map<string, map<string, string>> &sensor_info)
+[01;32m[K                                                              ^[m[K
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:175:62:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+ void writeCSVHeaders(map<string, shared_ptr<ofstream>> &files,
+[01;32m[K                                                     ^[m[K
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:175:62:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+                      const map<string, map<string, string>> &sensor_info)
+[01;32m[K                                                              ^[m[K
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:175:62:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+ void writeCSVHeaders(map<string, shared_ptr<ofstream>> &files,
+[01;32m[K                                                     ^[m[K
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:175:62:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+                      const map<string, map<string, string>> &sensor_info)
+[01;32m[K                                                              ^[m[K
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:175:62:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:22:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[KwriteCSVHeaders[m[K’ declared void
+ void writeCSVHeaders(map<string, shared_ptr<ofstream>> &files,
+[01;32m[K                      ^[m[K
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+ void writeCSVHeaders(map<string, shared_ptr<ofstream>> &files,
+[01;32m[K                                                     ^[m[K
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:174:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kfiles[m[K’ was not declared in this scope
+ void writeCSVHeaders(map<string, shared_ptr<ofstream>> &files,
+[01;32m[K                                                         ^[m[K
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:175:62:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+                      const map<string, map<string, string>> &sensor_info)
+[01;32m[K                                                              ^[m[K
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:175:62:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/src/dataset_convertor.cpp:175:62:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+make[2]: *** [CMakeFiles/dataset_convertor.dir/src/dataset_convertor.cpp.o] Error 1
+make[1]: *** [CMakeFiles/dataset_convertor.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [all] Error 2

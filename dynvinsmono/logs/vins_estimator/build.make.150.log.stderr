@@ -1,0 +1,20 @@
+In file included from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/../estimator.h:25:0[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/visualization.h:3[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/visualization.cpp:1[m[K:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/../dynenv/cluster.h:41:29:[m[K [01;31m[Kerror: [m[Kinvalid covariant return type for ‘[01m[Kvirtual std::vector<FeaturePerId> SimpleCluster::cluster(FeatureManager&, int)[m[K’
+   std::vector<FeaturePerId> [01;31m[Kcluster[m[K(FeatureManager &f_manager,
+                             [01;31m[K^~~~~~~[m[K
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/../dynenv/cluster.h:14:39:[m[K [01;31m[Kerror: [m[K  overriding ‘[01m[Kvirtual std::vector<FeaturePerId*> ClusterAlgorithm::cluster(FeatureManager&, int)[m[K’
+   virtual std::vector<FeaturePerId *> [01;31m[Kcluster[m[K(FeatureManager &f_manager,
+                                       [01;31m[K^~~~~~~[m[K
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/../dynenv/cluster.h:[m[K In member function ‘[01m[Kvirtual std::vector<FeaturePerId> SimpleCluster::cluster(FeatureManager&, int)[m[K’:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/../dynenv/cluster.h:53:37:[m[K [01;31m[Kerror: [m[K‘[01m[Knewframe[m[K’ was not declared in this scope
+       if (it_per_id.weight < 0.5 && [01;31m[Knewframe[m[K) {
+                                     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/../dynenv/cluster.h:53:37:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Krename[m[K’
+       if (it_per_id.weight < 0.5 && [01;36m[Knewframe[m[K) {
+                                     [01;36m[K^~~~~~~~[m[K
+                                     [32m[Krename[m[K
+make[2]: *** [CMakeFiles/libutility.dir/src/utility/visualization.cpp.o] Error 1
+make[1]: *** [CMakeFiles/libutility.dir/all] Error 2
+make: *** [all] Error 2

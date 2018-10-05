@@ -1,0 +1,19 @@
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/factor/projection_factor.cpp:[m[K In member function ‘[01m[Kvirtual bool ProjectionFactor::Evaluate(const double* const*, double*, double**) const[m[K’:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/factor/projection_factor.cpp:58:10:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kdouble dep_j[m[K’
+   double [01;31m[Kdep_j[m[K = pts_camera_j.z();
+          [01;31m[K^~~~~[m[K
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/factor/projection_factor.cpp:51:10:[m[K [01;36m[Knote: [m[K‘[01m[Kdouble dep_j[m[K’ previously declared here
+   double [01;36m[Kdep_j[m[K = pts_camera_j.z();
+          [01;36m[K^~~~~[m[K
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/factor/projection_factor.cpp:59:75:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kconst Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double>, const Eigen::Block<const Eigen::CwiseUnaryOp<Eigen::internal::scalar_quotient1_op<double>, const Eigen::Matrix<double, 3, 1> >, 2, 1, false>, const Eigen::Block<const Eigen::Matrix<double, 3, 1>, 2, 1, false> >[m[K’ to ‘[01m[Kdouble[m[K’ in initialization
+   double residual_comp = (pts_camera_j / dep_j).head<2>() - pts_j.head<2>([01;31m[K)[m[K;
+                                                                           [01;31m[K^[m[K
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/factor/projection_factor.cpp:60:31:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kconst ScalarMultipleReturnType {aka const Eigen::CwiseUnaryOp<Eigen::internal::scalar_multiple_op<double>, const Eigen::Matrix<double, 2, 2> >}[m[K’ to ‘[01m[Kdouble[m[K’ in assignment
+   residual_comp = sqrt_info * [01;31m[Kresidual_comp[m[K;
+                               [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/factor/projection_factor.cpp:61:34:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KsquaredNorm[m[K’ in ‘[01m[Kresidual_comp[m[K’, which is of non-class type ‘[01m[Kdouble[m[K’
+   *comp_residual = residual_comp.[01;31m[KsquaredNorm[m[K();
+                                  [01;31m[K^~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/libfactor.dir/src/factor/projection_factor.cpp.o] Error 1
+make[1]: *** [CMakeFiles/libfactor.dir/all] Error 2
+make: *** [all] Error 2

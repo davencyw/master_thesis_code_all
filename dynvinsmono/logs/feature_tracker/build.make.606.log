@@ -1,0 +1,5 @@
+[35m[1mScanning dependencies of target feature_tracker[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/feature_tracker.dir/src/parameters.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/feature_tracker.dir/src/feature_tracker.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable /home/davencyw/catkinws/dynvinsmono/devel/.private/feature_tracker/lib/feature_tracker/feature_tracker[0m
+[100%] Built target feature_tracker

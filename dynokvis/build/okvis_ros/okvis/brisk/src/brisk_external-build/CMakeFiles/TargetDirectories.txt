@@ -1,0 +1,15 @@
+/home/davencyw/catkinws/dynokvis/build/okvis_ros/okvis/brisk/src/brisk_external-build/CMakeFiles/rebuild_cache.dir
+/home/davencyw/catkinws/dynokvis/build/okvis_ros/okvis/brisk/src/brisk_external-build/CMakeFiles/edit_cache.dir
+/home/davencyw/catkinws/dynokvis/build/okvis_ros/okvis/brisk/src/brisk_external-build/CMakeFiles/demo.dir
+/home/davencyw/catkinws/dynokvis/build/okvis_ros/okvis/brisk/src/brisk_external-build/CMakeFiles/install.dir
+/home/davencyw/catkinws/dynokvis/build/okvis_ros/okvis/brisk/src/brisk_external-build/CMakeFiles/brisk.dir
+/home/davencyw/catkinws/dynokvis/build/okvis_ros/okvis/brisk/src/brisk_external-build/CMakeFiles/install/strip.dir
+/home/davencyw/catkinws/dynokvis/build/okvis_ros/okvis/brisk/src/brisk_external-build/CMakeFiles/install/local.dir
+/home/davencyw/catkinws/dynokvis/build/okvis_ros/okvis/brisk/src/brisk_external-build/CMakeFiles/list_install_components.dir
+/home/davencyw/catkinws/dynokvis/build/okvis_ros/okvis/brisk/src/brisk_external-build/agast/CMakeFiles/rebuild_cache.dir
+/home/davencyw/catkinws/dynokvis/build/okvis_ros/okvis/brisk/src/brisk_external-build/agast/CMakeFiles/install/strip.dir
+/home/davencyw/catkinws/dynokvis/build/okvis_ros/okvis/brisk/src/brisk_external-build/agast/CMakeFiles/install.dir
+/home/davencyw/catkinws/dynokvis/build/okvis_ros/okvis/brisk/src/brisk_external-build/agast/CMakeFiles/agast.dir
+/home/davencyw/catkinws/dynokvis/build/okvis_ros/okvis/brisk/src/brisk_external-build/agast/CMakeFiles/install/local.dir
+/home/davencyw/catkinws/dynokvis/build/okvis_ros/okvis/brisk/src/brisk_external-build/agast/CMakeFiles/list_install_components.dir
+/home/davencyw/catkinws/dynokvis/build/okvis_ros/okvis/brisk/src/brisk_external-build/agast/CMakeFiles/edit_cache.dir

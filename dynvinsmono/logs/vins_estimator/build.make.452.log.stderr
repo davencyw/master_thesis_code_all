@@ -1,0 +1,19 @@
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/pointclassifier.cc:7:66:[m[K [01;31m[Kerror: [m[Kdefault argument given for parameter 3 of ‘[01m[Kvoid ClassifyPoint::setParams(double, double, double)[m[K’ [-fpermissive]
+                               const double num_measurements = 100) {
+[01;32m[K                                                                  ^[m[K
+In file included from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/pointclassifier.cc:1:0[m[K:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/pointclassifier.h:42:8:[m[K [01;36m[Knote: [m[Kprevious specification in ‘[01m[Kvoid ClassifyPoint::setParams(double, double, double)[m[K’ here
+   void setParams(const double reproject_error_tolerance,
+[01;32m[K        ^[m[K
+make[2]: *** [CMakeFiles/libdynenv.dir/src/dynenv/pointclassifier.cc.o] Error 1
+make[1]: *** [CMakeFiles/libdynenv.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/visualization.h:3:0[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/visualization.cpp:1[m[K:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/../estimator.h:[m[K In member function ‘[01m[Kvoid Estimator::setClassifier(std::__cxx11::string, double, double, int)[m[K’:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/../estimator.h:49:24:[m[K [01;31m[Kerror: [m[K‘[01m[KclassifyPointsDepthDep3[m[K’ does not name a type
+       classifier = new classifyPointsDepthDep3;
+[01;32m[K                        ^[m[K
+make[2]: *** [CMakeFiles/libutility.dir/src/utility/visualization.cpp.o] Error 1
+make[1]: *** [CMakeFiles/libutility.dir/all] Error 2
+make: *** [all] Error 2

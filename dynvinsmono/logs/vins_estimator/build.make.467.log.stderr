@@ -1,0 +1,23 @@
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:[m[K In member function ‘[01m[Kvoid ClusterAlgorithm::selectPoints(FeatureManager&, std::vector<FeaturePerId*>&, std::deque<Cluster>&, int)[m[K’:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:65:49:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kstd::vector<FeaturePerId*>::push_back(FeaturePerId*, int)[m[K’
+       cluster_candidates.push_back(&it_per_id, 0);
+[01;32m[K                                                 ^[m[K
+In file included from [01m[K/usr/include/c++/5/vector:64:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/random.h:34[m[K,
+                 from [01m[K/usr/include/c++/5/random:49[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/../feature_manager.h:4[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.h:4[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:1[m[K:
+[01m[K/usr/include/c++/5/bits/stl_vector.h:913:7:[m[K [01;36m[Knote: [m[Kcandidate: void std::vector<_Tp, _Alloc>::push_back(const value_type&) [with _Tp = FeaturePerId*; _Alloc = std::allocator<FeaturePerId*>; std::vector<_Tp, _Alloc>::value_type = FeaturePerId*]
+       push_back(const value_type& __x)
+[01;32m[K       ^[m[K
+[01m[K/usr/include/c++/5/bits/stl_vector.h:913:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[01m[K/usr/include/c++/5/bits/stl_vector.h:931:7:[m[K [01;36m[Knote: [m[Kcandidate: void std::vector<_Tp, _Alloc>::push_back(std::vector<_Tp, _Alloc>::value_type&&) [with _Tp = FeaturePerId*; _Alloc = std::allocator<FeaturePerId*>; std::vector<_Tp, _Alloc>::value_type = FeaturePerId*]
+       push_back(value_type&& __x)
+[01;32m[K       ^[m[K
+[01m[K/usr/include/c++/5/bits/stl_vector.h:931:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+make[2]: *** [CMakeFiles/libdynenv.dir/src/dynenv/cluster.cc.o] Error 1
+make[1]: *** [CMakeFiles/libdynenv.dir/all] Error 2
+make: *** [all] Error 2

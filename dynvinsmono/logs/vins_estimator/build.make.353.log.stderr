@@ -1,0 +1,14 @@
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/visualization.cpp:[m[K In function ‘[01m[Kvoid pubImageFeatureClassification(const Estimator&, cv::Mat)[m[K’:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/visualization.cpp:457:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kc[m[K’ has not been declared
+   cv::threshold(bw, bw, 40, 255, [01;31m[Kc[m[K::THRESH_BINARY | cv::THRESH_OTSU);
+                                  [01;31m[K^[m[K
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/visualization.cpp:458:40:[m[K [01;31m[Kerror: [m[K‘[01m[KCV_DIST_L2[m[K’ is not a member of ‘[01m[Kcv[m[K’
+   cv::distanceTransform(bw, image, cv::[01;31m[KCV_DIST_L2[m[K, 5);
+                                        [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/visualization.cpp:458:40:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KDIST_L2[m[K’
+   cv::distanceTransform(bw, image, cv::[01;36m[KCV_DIST_L2[m[K, 5);
+                                        [01;36m[K^~~~~~~~~~[m[K
+                                        [32m[KDIST_L2[m[K
+make[2]: *** [CMakeFiles/libutility.dir/src/utility/visualization.cpp.o] Error 1
+make[1]: *** [CMakeFiles/libutility.dir/all] Error 2
+make: *** [all] Error 2

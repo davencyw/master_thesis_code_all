@@ -1,0 +1,24 @@
+/usr/bin/ld: warning: libboost_system.so.1.58.0, needed by /usr/local/lib/libvisensor.so, may conflict with libboost_system.so.1.67.0
+/home/davencyw/catkinws/dynokvis/devel/.private/okvis_ros/lib/libokvis_ceres.a(Estimator.cpp.o): In function `okvis::ceres::dynenv::Dep3::~Dep3()':
+Estimator.cpp:(.text._ZN5okvis5ceres6dynenv4Dep3D2Ev[_ZN5okvis5ceres6dynenv4Dep3D5Ev]+0xf): undefined reference to `okvis::ceres::dynenv::Pointclassifier::~Pointclassifier()'
+/home/davencyw/catkinws/dynokvis/devel/.private/okvis_ros/lib/libokvis_ceres.a(Estimator.cpp.o): In function `okvis::ceres::dynenv::Dep3::~Dep3()':
+Estimator.cpp:(.text._ZN5okvis5ceres6dynenv4Dep3D0Ev[_ZN5okvis5ceres6dynenv4Dep3D5Ev]+0x13): undefined reference to `okvis::ceres::dynenv::Pointclassifier::~Pointclassifier()'
+collect2: error: ld returned 1 exit status
+make[2]: *** [/home/davencyw/catkinws/dynokvis/devel/.private/okvis_ros/lib/okvis_ros/okvis_app_synchronous] Error 1
+make[1]: *** [okvis/CMakeFiles/okvis_app_synchronous.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+/home/davencyw/catkinws/dynokvis/devel/.private/okvis_ros/lib/libokvis_ceres.a(Estimator.cpp.o): In function `okvis::ceres::dynenv::Dep3::~Dep3()':
+Estimator.cpp:(.text._ZN5okvis5ceres6dynenv4Dep3D2Ev[_ZN5okvis5ceres6dynenv4Dep3D5Ev]+0xf): undefined reference to `okvis::ceres::dynenv::Pointclassifier::~Pointclassifier()'
+/home/davencyw/catkinws/dynokvis/devel/.private/okvis_ros/lib/libokvis_ceres.a(Estimator.cpp.o): In function `okvis::ceres::dynenv::Dep3::~Dep3()':
+Estimator.cpp:(.text._ZN5okvis5ceres6dynenv4Dep3D0Ev[_ZN5okvis5ceres6dynenv4Dep3D5Ev]+0x13): undefined reference to `okvis::ceres::dynenv::Pointclassifier::~Pointclassifier()'
+collect2: error: ld returned 1 exit status
+make[2]: *** [/home/davencyw/catkinws/dynokvis/devel/.private/okvis_ros/lib/okvis_ros/okvis_node] Error 1
+make[1]: *** [CMakeFiles/okvis_node.dir/all] Error 2
+/home/davencyw/catkinws/dynokvis/devel/.private/okvis_ros/lib/libokvis_ceres.a(Estimator.cpp.o): In function `okvis::ceres::dynenv::Dep3::~Dep3()':
+Estimator.cpp:(.text._ZN5okvis5ceres6dynenv4Dep3D2Ev[_ZN5okvis5ceres6dynenv4Dep3D5Ev]+0xf): undefined reference to `okvis::ceres::dynenv::Pointclassifier::~Pointclassifier()'
+/home/davencyw/catkinws/dynokvis/devel/.private/okvis_ros/lib/libokvis_ceres.a(Estimator.cpp.o): In function `okvis::ceres::dynenv::Dep3::~Dep3()':
+Estimator.cpp:(.text._ZN5okvis5ceres6dynenv4Dep3D0Ev[_ZN5okvis5ceres6dynenv4Dep3D5Ev]+0x13): undefined reference to `okvis::ceres::dynenv::Pointclassifier::~Pointclassifier()'
+collect2: error: ld returned 1 exit status
+make[2]: *** [/home/davencyw/catkinws/dynokvis/devel/.private/okvis_ros/lib/okvis_ros/okvis_node_synchronous] Error 1
+make[1]: *** [CMakeFiles/okvis_node_synchronous.dir/all] Error 2
+make: *** [all] Error 2

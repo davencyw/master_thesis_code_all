@@ -1,0 +1,11 @@
+In file included from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/Estimator.hpp:65:0[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/src/Estimator.cpp:42[m[K:
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/dynenv/cluster.hpp:21:3:[m[K [01;31m[Kerror: [m[K‘[01m[Keigen[m[K’ does not name a type
+   eigen::Vector2d center = {0, 0};
+[01;32m[K   ^[m[K
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/dynenv/cluster.hpp:23:3:[m[K [01;31m[Kerror: [m[K‘[01m[Keigen[m[K’ does not name a type
+   eigen::Vector2d averageopticalflow = {0, 0};
+[01;32m[K   ^[m[K
+make[2]: *** [okvis/okvis_ceres/CMakeFiles/okvis_ceres.dir/src/Estimator.cpp.o] Error 1
+make[1]: *** [okvis/okvis_ceres/CMakeFiles/okvis_ceres.dir/all] Error 2
+make: *** [all] Error 2

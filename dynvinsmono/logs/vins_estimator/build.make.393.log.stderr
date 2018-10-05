@@ -1,0 +1,9 @@
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/visualization.cpp:[m[K In function ‘[01m[Kvoid pubImageFeatureClassification(const Estimator&, cv::Mat)[m[K’:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/visualization.cpp:458:41:[m[K [01;31m[Kerror: [m[Kcannot call member function ‘[01m[Kvoid cv::Mat::convertTo(cv::OutputArray, int, double, double) const[m[K’ without object
+   cv::Mat::convertTo(image, CV_8U, 255.0);
+[01;32m[K                                         ^[m[K
+At global scope:
+[01m[Kcc1plus:[m[K [01;35m[Kwarning: [m[Kunrecognized command line option ‘[01m[K-Wno-ignored-attributes[m[K’
+make[2]: *** [CMakeFiles/libutility.dir/src/utility/visualization.cpp.o] Error 1
+make[1]: *** [CMakeFiles/libutility.dir/all] Error 2
+make: *** [all] Error 2

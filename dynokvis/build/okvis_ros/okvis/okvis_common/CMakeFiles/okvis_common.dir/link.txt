@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/davencyw/catkinws/dynokvis/devel/.private/okvis_ros/lib/libokvis_common.a  CMakeFiles/okvis_common.dir/src/VioInterface.cpp.o CMakeFiles/okvis_common.dir/src/VioParametersReader.cpp.o
+/usr/bin/ranlib /home/davencyw/catkinws/dynokvis/devel/.private/okvis_ros/lib/libokvis_common.a

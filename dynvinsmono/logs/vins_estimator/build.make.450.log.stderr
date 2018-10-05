@@ -1,0 +1,7 @@
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:4:59:[m[K [01;31m[Kerror: [m[Kvirt-specifiers in ‘[01m[Kcluster[m[K’ not allowed outside a class definition
+                             std::deque<Cluster> &cluster) override {
+[01;32m[K                                                           ^[m[K
+make[2]: *** [CMakeFiles/libdynenv.dir/src/dynenv/cluster.cc.o] Error 1
+make[1]: *** [CMakeFiles/libdynenv.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [all] Error 2

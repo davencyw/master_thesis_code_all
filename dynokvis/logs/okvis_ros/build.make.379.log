@@ -1,0 +1,19 @@
+[  9%] Built target opengv_external
+[ 11%] Built target okvis_util
+[ 20%] Built target ceres_external
+[ 29%] Built target brisk_external
+[ 31%] Built target okvis_ros_gencfg
+[ 35%] Built target okvis_matcher
+[ 39%] Built target okvis_time
+[ 41%] Built target okvis_kinematics
+[ 44%] Built target okvis_timing
+[ 48%] Built target okvis_cv
+[ 51%] Built target okvis_common
+[ 72%] Built target okvis_ceres
+[ 80%] Built target okvis_frontend
+[ 86%] Built target okvis_multisensor_processing
+[ 90%] Built target okvis_ros
+[ 93%] Built target dataset_convertor
+[ 95%] Built target okvis_node
+[ 97%] Built target okvis_node_synchronous
+[100%] Built target okvis_app_synchronous

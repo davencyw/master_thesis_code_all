@@ -1,0 +1,29 @@
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:256:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kdouple[m[K’ does not name a type
+     const int candidate_i, const douple eps,
+[01;32m[K                                  ^[m[K
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:255:18:[m[K [01;31m[Kerror: [m[Kprototype for ‘[01m[Kstd::vector<int> DbscanCluster::regionQuery(int, int, const std::vector<std::pair<FeaturePerId*, double> >&)[m[K’ does not match any in class ‘[01m[KDbscanCluster[m[K’
+ std::vector<int> DbscanCluster::regionQuery(
+[01;32m[K                  ^[m[K
+In file included from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:1:0[m[K:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.h:77:20:[m[K [01;31m[Kerror: [m[Kcandidate is: std::vector<int> DbscanCluster::regionQuery(int, const std::vector<std::pair<FeaturePerId*, double> >&)
+   std::vector<int> regionQuery(
+[01;32m[K                    ^[m[K
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:[m[K In member function ‘[01m[Kvoid DbscanCluster::expandCluster(int, const std::vector<int>&, std::map<unsigned int, int>&, const std::vector<std::pair<FeaturePerId*, double> >&, int, unsigned int)[m[K’:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:287:74:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KDbscanCluster::regionQuery(const value_type&)[m[K’
+       std::vector<int> neighbours_p = regionQuery(neighbours[neighbour_i]);
+[01;32m[K                                                                          ^[m[K
+In file included from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:1:0[m[K:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.h:77:20:[m[K [01;36m[Knote: [m[Kcandidate: std::vector<int> DbscanCluster::regionQuery(int, const std::vector<std::pair<FeaturePerId*, double> >&)
+   std::vector<int> regionQuery(
+[01;32m[K                    ^[m[K
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.h:77:20:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:290:46:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KDbscanCluster::expandCluster(const value_type&, std::vector<int>&, std::map<unsigned int, int>&, const int&, const unsigned int&)[m[K’
+                       clustercount, minpoints);
+[01;32m[K                                              ^[m[K
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:278:6:[m[K [01;36m[Knote: [m[Kcandidate: void DbscanCluster::expandCluster(int, const std::vector<int>&, std::map<unsigned int, int>&, const std::vector<std::pair<FeaturePerId*, double> >&, int, unsigned int)
+ void DbscanCluster::expandCluster(
+[01;32m[K      ^[m[K
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:278:6:[m[K [01;36m[Knote: [m[K  candidate expects 6 arguments, 5 provided
+make[2]: *** [CMakeFiles/libdynenv.dir/src/dynenv/cluster.cc.o] Error 1
+make[1]: *** [CMakeFiles/libdynenv.dir/all] Error 2
+make: *** [all] Error 2

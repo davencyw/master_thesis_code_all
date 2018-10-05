@@ -1,0 +1,7 @@
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:[m[K In member function ‘[01m[Kstd::vector<Cluster> DbscanCluster::dbscan(const std::vector<std::pair<FeaturePerId*, double> >&, double, unsigned int)[m[K’:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:266:7:[m[K [01;31m[Kerror: [m[Kdecrement of read-only variable ‘[01m[Knumclusters[m[K’
+     --numclusters;
+[01;32m[K       ^[m[K
+make[2]: *** [CMakeFiles/libdynenv.dir/src/dynenv/cluster.cc.o] Error 1
+make[1]: *** [CMakeFiles/libdynenv.dir/all] Error 2
+make: *** [all] Error 2

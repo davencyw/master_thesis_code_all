@@ -1,0 +1,1 @@
+/home/davencyw/catkinws/dynvinsmono/devel/.private/camera_model/lib/pkgconfig/camera_model.pc

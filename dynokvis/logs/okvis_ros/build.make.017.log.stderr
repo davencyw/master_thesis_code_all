@@ -1,0 +1,34 @@
+In file included from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/Estimator.hpp:585:0[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_frontend/include/okvis/VioKeyframeWindowMatchingAlgorithm.hpp:48[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_frontend/src/VioKeyframeWindowMatchingAlgorithm.cpp:41[m[K:
+/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/implementation/Estimator.hpp: In instantiation of ‘[01m[Kceres::internal::ResidualBlock* okvis::Estimator::addObservation(uint64_t, uint64_t, std::size_t, std::size_t) [with GEOMETRY_TYPE = okvis::cameras::PinholeCamera<okvis::cameras::RadialTangentialDistortion>; ceres::ResidualBlockId = ceres::internal::ResidualBlock*; uint64_t = long unsigned int; std::size_t = long unsigned int][m[K’:
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_frontend/src/VioKeyframeWindowMatchingAlgorithm.cpp:457:7:[m[K   required from ‘[01m[Kvoid okvis::VioKeyframeWindowMatchingAlgorithm<CAMERA_GEOMETRY_T>::setBestMatch(std::size_t, std::size_t, double) [with CAMERA_GEOMETRY_T = okvis::cameras::PinholeCamera<okvis::cameras::RadialTangentialDistortion>; std::size_t = long unsigned int][m[K’
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_frontend/src/VioKeyframeWindowMatchingAlgorithm.cpp:529:16:[m[K   required from here
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/implementation/Estimator.hpp:63:17:[m[K [01;31m[Kerror: [m[Kuninitialized const ‘[01m[Kobservation_residualptr[m[K’ [-fpermissive]
+   double* const observation_residualptr;
+[01;32m[K                 ^[m[K
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/implementation/Estimator.hpp:61:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kobservation_id[m[K’ [-Wunused-variable]
+   const uint64_t observation_id(
+[01;32m[K                  ^[m[K
+/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/implementation/Estimator.hpp: In instantiation of ‘[01m[Kceres::internal::ResidualBlock* okvis::Estimator::addObservation(uint64_t, uint64_t, std::size_t, std::size_t) [with GEOMETRY_TYPE = okvis::cameras::PinholeCamera<okvis::cameras::EquidistantDistortion>; ceres::ResidualBlockId = ceres::internal::ResidualBlock*; uint64_t = long unsigned int; std::size_t = long unsigned int][m[K’:
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_frontend/src/VioKeyframeWindowMatchingAlgorithm.cpp:457:7:[m[K   required from ‘[01m[Kvoid okvis::VioKeyframeWindowMatchingAlgorithm<CAMERA_GEOMETRY_T>::setBestMatch(std::size_t, std::size_t, double) [with CAMERA_GEOMETRY_T = okvis::cameras::PinholeCamera<okvis::cameras::EquidistantDistortion>; std::size_t = long unsigned int][m[K’
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_frontend/src/VioKeyframeWindowMatchingAlgorithm.cpp:532:16:[m[K   required from here
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/implementation/Estimator.hpp:63:17:[m[K [01;31m[Kerror: [m[Kuninitialized const ‘[01m[Kobservation_residualptr[m[K’ [-fpermissive]
+   double* const observation_residualptr;
+[01;32m[K                 ^[m[K
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/implementation/Estimator.hpp:61:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kobservation_id[m[K’ [-Wunused-variable]
+   const uint64_t observation_id(
+[01;32m[K                  ^[m[K
+/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/implementation/Estimator.hpp: In instantiation of ‘[01m[Kceres::internal::ResidualBlock* okvis::Estimator::addObservation(uint64_t, uint64_t, std::size_t, std::size_t) [with GEOMETRY_TYPE = okvis::cameras::PinholeCamera<okvis::cameras::RadialTangentialDistortion8>; ceres::ResidualBlockId = ceres::internal::ResidualBlock*; uint64_t = long unsigned int; std::size_t = long unsigned int][m[K’:
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_frontend/src/VioKeyframeWindowMatchingAlgorithm.cpp:457:7:[m[K   required from ‘[01m[Kvoid okvis::VioKeyframeWindowMatchingAlgorithm<CAMERA_GEOMETRY_T>::setBestMatch(std::size_t, std::size_t, double) [with CAMERA_GEOMETRY_T = okvis::cameras::PinholeCamera<okvis::cameras::RadialTangentialDistortion8>; std::size_t = long unsigned int][m[K’
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_frontend/src/VioKeyframeWindowMatchingAlgorithm.cpp:535:16:[m[K   required from here
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/implementation/Estimator.hpp:63:17:[m[K [01;31m[Kerror: [m[Kuninitialized const ‘[01m[Kobservation_residualptr[m[K’ [-fpermissive]
+   double* const observation_residualptr;
+[01;32m[K                 ^[m[K
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/include/okvis/implementation/Estimator.hpp:61:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kobservation_id[m[K’ [-Wunused-variable]
+   const uint64_t observation_id(
+[01;32m[K                  ^[m[K
+make[2]: *** [okvis/okvis_frontend/CMakeFiles/okvis_frontend.dir/src/VioKeyframeWindowMatchingAlgorithm.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [okvis/okvis_frontend/CMakeFiles/okvis_frontend.dir/all] Error 2
+make: *** [all] Error 2

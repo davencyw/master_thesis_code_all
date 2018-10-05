@@ -1,0 +1,8 @@
+prefix=/home/davencyw/catkinws/dynvinsmono/install
+
+Name: feature_tracker
+Description: Description of feature_tracker
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/davencyw/catkinws/dynvinsmono/install/lib 
+Requires: 

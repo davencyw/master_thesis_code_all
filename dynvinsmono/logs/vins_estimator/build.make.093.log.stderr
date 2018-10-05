@@ -1,0 +1,11 @@
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/estimator_node.cpp:[m[K In function ‘[01m[Kvoid process()[m[K’:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/estimator_node.cpp:336:66:[m[K [01;31m[Kerror: [m[Ktoo many arguments to function ‘[01m[Kvoid pubImageFeatureClassification(const Estimator&, const Header&)[m[K’
+       pubImageFeatureClassification(estimator, header, ptr->image[01;31m[K)[m[K;
+                                                                  [01;31m[K^[m[K
+In file included from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/estimator_node.cpp:14:0[m[K:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/visualization.h:37:6:[m[K [01;36m[Knote: [m[Kdeclared here
+ void [01;36m[KpubImageFeatureClassification[m[K(const Estimator &estimator,
+      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/vins_estimator.dir/src/estimator_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/vins_estimator.dir/all] Error 2
+make: *** [all] Error 2

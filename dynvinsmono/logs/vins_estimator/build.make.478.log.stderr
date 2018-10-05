@@ -1,0 +1,18 @@
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:24:6:[m[K [01;31m[Kerror: [m[Kprototype for ‘[01m[Kvoid ClusterAlgorithm::selectPoints(FeatureManager&, std::vector<std::pair<FeaturePerId*, double> >&, std::deque<Cluster>&, int)[m[K’ does not match any in class ‘[01m[KClusterAlgorithm[m[K’
+ void ClusterAlgorithm::selectPoints(
+[01;32m[K      ^[m[K
+In file included from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:1:0[m[K:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.h:32:8:[m[K [01;31m[Kerror: [m[Kcandidate is: void ClusterAlgorithm::selectPoints(FeatureManager&, std::vector<std::pair<FeaturePerId*, double> >&, std::deque<std::vector<Cluster> >&, int)
+   void selectPoints(
+[01;32m[K        ^[m[K
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:[m[K In member function ‘[01m[Kvoid ClusterAlgorithm::addInliers(FeatureManager&, const std::vector<Cluster>&)[m[K’:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:108:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kcluster_candidates[m[K’ was not declared in this scope
+           cluster_candidates.push_back(std::make_pair(&it_per_id, 0));
+[01;32m[K           ^[m[K
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:109:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kaverageweight[m[K’ was not declared in this scope
+           it_per_id.weight = averageweight;
+[01;32m[K                              ^[m[K
+make[2]: *** [CMakeFiles/libdynenv.dir/src/dynenv/cluster.cc.o] Error 1
+make[1]: *** [CMakeFiles/libdynenv.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [all] Error 2

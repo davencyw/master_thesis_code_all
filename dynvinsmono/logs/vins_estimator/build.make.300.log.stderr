@@ -1,0 +1,13 @@
+In file included from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/../estimator.h:25:0[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/visualization.h:3[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/visualization.cpp:1[m[K:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/../dynenv/cluster.h:27:40:[m[K [01;31m[Kerror: [m[Knon-static data member ‘[01m[Kclusterthreshold_[m[K’ declared ‘[01m[Kconstexpr[m[K’
+   constexpr double clusterthreshold_ = [01;31m[K0.3[m[K;
+                                        [01;31m[K^~~[m[K
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/../dynenv/cluster.h:[m[K In member function ‘[01m[Kvirtual void SimpleCluster::cluster(FeatureManager&, int, std::deque<Cluster>&)[m[K’:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/../dynenv/cluster.h:91:63:[m[K [01;31m[Kerror: [m[K‘[01m[Kthis[m[K’ is not a constant expression
+           constexpr double multiplier(clusterthreshold_ - 0.01[01;31m[K)[m[K;
+                                                               [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/libutility.dir/src/utility/visualization.cpp.o] Error 1
+make[1]: *** [CMakeFiles/libutility.dir/all] Error 2
+make: *** [all] Error 2

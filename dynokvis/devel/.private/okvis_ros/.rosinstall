@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/davencyw/catkinws/dynokvis/devel/.private/okvis_ros/setup.sh

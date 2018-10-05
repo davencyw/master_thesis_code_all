@@ -1,0 +1,39 @@
+In file included from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:1:0[m[K:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.h:81:49:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[Kconst[m[K’
+       const std::map<unsigned int, int> &labels const int clustercount,
+[01;32m[K                                                 ^[m[K
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:[m[K In member function ‘[01m[Kvoid DbscanCluster::dbscan(const std::vector<std::pair<FeaturePerId*, double> >&, double, unsigned int)[m[K’:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:245:49:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
+       std::vector<int> neighbours = regionQuery(i);
+[01;32m[K                                                 ^[m[K
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:250:79:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KDbscanCluster::expandCluster(int&, std::vector<int>&, std::map<unsigned int, int>&, int&, const unsigned int&)[m[K’
+         expandCluster(candidate_i, neighbours, labels, clustercount, minpoints);
+[01;32m[K                                                                               ^[m[K
+In file included from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:1:0[m[K:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.h:79:8:[m[K [01;36m[Knote: [m[Kcandidate: void DbscanCluster::expandCluster(int, const std::vector<int>&, const std::map<unsigned int, int>&)
+   void expandCluster(
+[01;32m[K        ^[m[K
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.h:79:8:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 5 provided
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:[m[K At global scope:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:262:65:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[K)[m[K’ token
+                                   const unsigned int minpoints, ) {
+[01;32m[K                                                                 ^[m[K
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:258:6:[m[K [01;31m[Kerror: [m[Kprototype for ‘[01m[Kvoid DbscanCluster::expandCluster(int, const std::vector<int>&, const std::map<unsigned int, int>&, int, unsigned int, int)[m[K’ does not match any in class ‘[01m[KDbscanCluster[m[K’
+ void DbscanCluster::expandCluster(const int feature_i,
+[01;32m[K      ^[m[K
+In file included from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:1:0[m[K:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.h:79:8:[m[K [01;31m[Kerror: [m[Kcandidate is: void DbscanCluster::expandCluster(int, const std::vector<int>&, const std::map<unsigned int, int>&)
+   void expandCluster(
+[01;32m[K        ^[m[K
+make[2]: *** [CMakeFiles/libdynenv.dir/src/dynenv/cluster.cc.o] Error 1
+make[1]: *** [CMakeFiles/libdynenv.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/../estimator.h:25:0[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/visualization.h:3[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/visualization.cpp:1[m[K:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/../dynenv/cluster.h:81:49:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[Kconst[m[K’
+       const std::map<unsigned int, int> &labels const int clustercount,
+[01;32m[K                                                 ^[m[K
+make[2]: *** [CMakeFiles/libutility.dir/src/utility/visualization.cpp.o] Error 1
+make[1]: *** [CMakeFiles/libutility.dir/all] Error 2
+make: *** [all] Error 2

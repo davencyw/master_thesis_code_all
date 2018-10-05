@@ -1,0 +1,12 @@
+In file included from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/../estimator.h:25:0[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/visualization.h:3[m[K,
+                 from [01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/visualization.cpp:1[m[K:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/../dynenv/cluster.h:23:8:[m[K [01;31m[Kerror: [m[Kinitializer specified for non-virtual method ‘[01m[Kvoid ClusterAlgorithm::cluster(FeatureManager&, int, std::vector<Cluster>&)[m[K’
+   void [01;31m[Kcluster[m[K(FeatureManager &f_manager, const int framecount,
+        [01;31m[K^~~~~~~[m[K
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/utility/../dynenv/cluster.h:37:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid SimpleCluster::cluster(FeatureManager&, int, std::vector<Cluster>&)[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+   void [01;31m[Kcluster[m[K(FeatureManager &f_manager, const int framecount,
+        [01;31m[K^~~~~~~[m[K
+make[2]: *** [CMakeFiles/libutility.dir/src/utility/visualization.cpp.o] Error 1
+make[1]: *** [CMakeFiles/libutility.dir/all] Error 2
+make: *** [all] Error 2

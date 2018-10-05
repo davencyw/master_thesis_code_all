@@ -1,0 +1,6 @@
+devel_space: /home/davencyw/catkinws/dynvinsmono/devel
+install: false
+install_space: /home/davencyw/catkinws/dynvinsmono/install
+profile: default
+source_space: /home/davencyw/catkinws/dynvinsmono/src
+workspace: /home/davencyw/catkinws/dynvinsmono

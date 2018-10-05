@@ -1,0 +1,5 @@
+/home/davencyw/catkinws/dynvinsmono/devel/.private/vins_estimator/lib/liblibutility.so: undefined reference to `pub_image_feature_classification'
+collect2: error: ld returned 1 exit status
+make[2]: *** [/home/davencyw/catkinws/dynvinsmono/devel/.private/vins_estimator/lib/vins_estimator/vins_estimator] Error 1
+make[1]: *** [CMakeFiles/vins_estimator.dir/all] Error 2
+make: *** [all] Error 2

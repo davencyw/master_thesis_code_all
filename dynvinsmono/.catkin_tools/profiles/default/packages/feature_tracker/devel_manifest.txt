@@ -1,0 +1,5 @@
+VINS-Mono/feature_tracker
+/home/davencyw/catkinws/dynvinsmono/devel/.private/feature_tracker/lib/feature_tracker/feature_tracker /home/davencyw/catkinws/dynvinsmono/devel/lib/feature_tracker/feature_tracker
+/home/davencyw/catkinws/dynvinsmono/devel/.private/feature_tracker/lib/pkgconfig/feature_tracker.pc /home/davencyw/catkinws/dynvinsmono/devel/lib/pkgconfig/feature_tracker.pc
+/home/davencyw/catkinws/dynvinsmono/devel/.private/feature_tracker/share/feature_tracker/cmake/feature_trackerConfig-version.cmake /home/davencyw/catkinws/dynvinsmono/devel/share/feature_tracker/cmake/feature_trackerConfig-version.cmake
+/home/davencyw/catkinws/dynvinsmono/devel/.private/feature_tracker/share/feature_tracker/cmake/feature_trackerConfig.cmake /home/davencyw/catkinws/dynvinsmono/devel/share/feature_tracker/cmake/feature_trackerConfig.cmake

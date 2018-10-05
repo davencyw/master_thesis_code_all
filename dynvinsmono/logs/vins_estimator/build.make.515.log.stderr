@@ -1,0 +1,11 @@
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:[m[K In member function ‘[01m[Kvoid DbscanCluster::dbscan(const std::vector<std::pair<FeaturePerId*, double> >&, double, unsigned int)[m[K’:
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:245:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kneighbours[m[K’ was not declared in this scope
+       if (neighbours.size() < mnpts) {
+[01;32m[K           ^[m[K
+[01m[K/home/davencyw/catkinws/dynvinsmono/src/VINS-Mono/vins_estimator/src/dynenv/cluster.cc:245:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kmnpts[m[K’ was not declared in this scope
+       if (neighbours.size() < mnpts) {
+[01;32m[K                               ^[m[K
+make[2]: *** [CMakeFiles/libdynenv.dir/src/dynenv/cluster.cc.o] Error 1
+make[1]: *** [CMakeFiles/libdynenv.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [all] Error 2

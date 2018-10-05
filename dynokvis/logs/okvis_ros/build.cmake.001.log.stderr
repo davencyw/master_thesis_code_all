@@ -1,0 +1,29 @@
+[31m[1mCMake Error[0m at /home/davencyw/catkinws/dynokvis/src/okvis_ros/CMakeLists.txt:37 (add_subdirectory):
+  The source directory
+
+    /home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis
+
+  does not contain a CMakeLists.txt file.
+
+
+[33m[1mCMake Warning[0m at /home/davencyw/catkinws/dynokvis/src/okvis_ros/CMakeLists.txt:42 (find_package):
+  By not providing "FindVISensor.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "VISensor",
+  but CMake did not find one.
+
+  Could not find a package configuration file provided by "VISensor" with any
+  of the following names:
+
+    VISensorConfig.cmake
+    visensor-config.cmake
+
+  Add the installation prefix of "VISensor" to CMAKE_PREFIX_PATH or set
+  "VISensor_DIR" to a directory containing one of the above files.  If
+  "VISensor" provides a separate development package or SDK, be sure it has
+  been installed.
+
+
+[33m[1mCMake Warning[0m at /home/davencyw/catkinws/dynokvis/src/okvis_ros/CMakeLists.txt:49 (message):
+  libvisensor not found
+
+

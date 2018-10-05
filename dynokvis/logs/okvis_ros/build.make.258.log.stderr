@@ -1,0 +1,13 @@
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/src/cluster.cpp:[m[K In member function ‘[01m[Kvoid okvis::ceres::dynenv::ClusterAlgorithm::selectPointsAndReduce(okvis::PointMap&, std::vector<std::pair<okvis::MapPoint*, double> >&, const std::deque<std::vector<okvis::ceres::dynenv::Cluster> >&, uint64_t, okvis::MultiFramePtr)[m[K’:
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/src/cluster.cpp:84:62:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[Kstd::pair<const okvis::KeypointIdentifier, long unsigned int>[m[K’ to non-scalar type ‘[01m[Kokvis::KeypointIdentifier[m[K’ requested
+ for(okvis::KeypointIdentifier observation_i : point_i.second.observations){
+[01;32m[K                                                              ^[m[K
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/src/cluster.cpp:85:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct okvis::KeypointIdentifier[m[K’ has no member named ‘[01m[Kfirst[m[K’
+   if (observation_i.first.getFrameId() > latestobservation.getFrameId()){
+[01;32m[K                     ^[m[K
+[01m[K/home/davencyw/catkinws/dynokvis/src/okvis_ros/okvis/okvis_ceres/src/cluster.cpp:86:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct okvis::KeypointIdentifier[m[K’ has no member named ‘[01m[Kfirst[m[K’
+     latestobservation = observation_i.first;
+[01;32m[K                                       ^[m[K
+make[2]: *** [okvis/okvis_ceres/CMakeFiles/okvis_ceres.dir/src/cluster.cpp.o] Error 1
+make[1]: *** [okvis/okvis_ceres/CMakeFiles/okvis_ceres.dir/all] Error 2
+make: *** [all] Error 2
